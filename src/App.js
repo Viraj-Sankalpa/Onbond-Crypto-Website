@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import AboutHome from "./components/about-home/AboutHome";
 import ScrollToTop from "./helpers/ScrollToTop";
 import About from "./pages/About";
 import AboutBitcoin from "./pages/AboutBitcoin";
@@ -29,6 +30,10 @@ function App() {
           <Route
             path={`${process.env.PUBLIC_URL + "/home-one"}`}
             component={HomeOne}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + "/about-home"}`}
+            component={AboutHome}
           />
           
           <Route
