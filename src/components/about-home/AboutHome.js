@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const AboutHome = () => {
   return (
     <div className="dg__secure__transaction">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row flex-column-reverse flex-lg-row align-items-center">
           <div className="col-lg-7">
             <div className="dg__secure__inner">
               <h2>
@@ -27,15 +28,16 @@ const AboutHome = () => {
                 className="secure__btn dg__btn btn--trans"
                 to={process.env.PUBLIC_URL + "/contact"}
               >
-                apply For Wallet
+                read more
               </Link>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 mb-4 mb-lg-0">
             <div className="dg__secure__thumb">
               <img
                 src={process.env.PUBLIC_URL + "/images/about/2.png"}
                 alt="secure images"
+                className="img-fluid"
               />
             </div>
           </div>
