@@ -11,7 +11,7 @@ const EasyStart = () => {
           <div className="col-sm-12">
             {/* section title */}
             <SectionTitle
-              title="Easy way to buy onebond coin"
+              title="why choose onebond"
               text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
             />
           </div>
