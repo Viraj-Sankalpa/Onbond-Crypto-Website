@@ -1,7 +1,7 @@
 import React from "react";
-import easyStartData from "../../data/easy-starts/easy-start.json";
 import EasyStartSingle from "../../components/easy-starts/EasyStartSingle.js";
 import SectionTitle from "../../components/ui/section-titles/SectionTitle.js";
+import easyStartData from "../../data/easy-starts/easy-start.json";
 
 const EasyStart = () => {
   return (
