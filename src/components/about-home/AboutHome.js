@@ -9,20 +9,20 @@ const AboutHome = () => {
           <div className="col-lg-7">
             <div className="dg__secure__inner">
               <h2>
-                A Most Powerful wallet is develop for you, you can use this
-                wallet for next secure transaction.
+              One Bond Coin: Pioneering Accessible, Secure, and Transparent Financial Services
               </h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore.
+                The OBC (One Bond Coin) aims to bridge the gap between
+                traditional finance and the crypto world by offering a
+                comprehensive suite of financial services that cater to the
+                needs of the crypto users with access to a range of financial
+                services that are secure, transparent, and user-friendly.
               </p>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit,
+                One of the key ways in which the OBC (One Bond Coin) solve the
+                problem of the gap between traditional finance and the crypto
+                world is by offering users access to both fiat and crypto-based
+                financial services.
               </p>
               <Link
                 className="secure__btn dg__btn btn--trans"
