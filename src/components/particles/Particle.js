@@ -15,9 +15,11 @@ const Particle = () => {
           },
           color: {
             value: "#dadae3"
+            // value: "#f7931a"
           },
           shape: {
-            type: "triangle",
+            // type: "triangle",
+            type: "image",
             stroke: {
               width: 1,
               color: "#001212"
@@ -26,7 +28,8 @@ const Particle = () => {
               nb_sides: 6
             },
             image: {
-              src: "img/github.svg",
+              src: "/images/bg/bitcoin-btc-logo.png",
+              // src: "img/github.svg",
               width: 100,
               height: 100
             }

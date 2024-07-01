@@ -7,7 +7,6 @@ import LiveChart from "../components/live-chart/LiveChart";
 import SecureTransaction from "../components/secure-transactions/SecureTransaction";
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
 import CounterUp from "../containers/counter-ups/CounterUp";
-import CurrencyTicker from "../containers/currency-tickers/CurrencyTicker";
 import EasyStart from "../containers/easy-starts/EasyStart";
 import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import LayoutOne from "../layouts/LayoutOne";
@@ -19,14 +18,14 @@ const HomeOne = () => {
         <title>OneBond | Home One</title>
         <meta
           name="description"
-          content="Homepage of React JS Crypto Currency Template."
+          content="Homepage of OneBond Crypto Currency Website."
         />
       </MetaTags>
       <LayoutOne>
         {/* hero slider */}
         <HeroSlider />
         {/* currency ticker */}
-        <CurrencyTicker />
+        {/* <CurrencyTicker /> */}
         {/* website about - home */}
         <AboutHome />
         {/* easy start */}
