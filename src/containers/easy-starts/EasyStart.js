@@ -16,7 +16,7 @@ const EasyStart = () => {
             />
           </div>
         </div>
-        <div className="service__wrap">
+        <div className="service__wrap gap-4 ">
           {easyStartData &&
             easyStartData.map((single, key) => {
               return <EasyStartSingle data={single} key={key} />;
