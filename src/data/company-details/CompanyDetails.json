@@ -1,0 +1,39 @@
+[
+    {
+      "id": "1",
+      "image": "/images/service/icon/10.png",
+      "title": "COMPANY SECRETARY",
+      "content1": "BDO – Dubai",
+      "content2": "23rd Floor, Burjuman Business Tower",
+      "content3": "Sheikh Khalifa Bin Zayed Road",
+      "content4": "Dubai, UAE"
+    },
+    {
+      "id": "2",
+      "image": "/images/service/icon/11.png",
+      "title": "our auditors",
+      "content1": "Ernst & Young Middle East",
+      "content2": "676J+P66, Al Mustaqbal Street",
+      "content3": "Trade Centre, DIFC",
+      "content4": "Dubai, UAE"
+    },
+    {
+      "id": "3",
+      "image": "/images/service/icon/13.png",
+      "title": "LEGAL TEAM",
+      "content1": "Al Tamimi & Company",
+      "content2": "6th and 7th Floor, Central Park Towers Residences,",
+      "content3": "Omalat Street, DIFC",
+      "content4": "Dubai, UAE"
+    },
+    {
+      "id": "4",
+      "image": "/images/service/icon/12.png",
+      "title": "OUR BANKERS",
+      "content1": "First Abu Dhabi Bank",
+      "content2": "Unit LG – 136, Financial Center Road",
+      "content3": "Downtown Dubai",
+      "content4": "Dubai, UAE"
+    }
+  ]
+  
