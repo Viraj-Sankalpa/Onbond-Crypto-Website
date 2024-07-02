@@ -10,7 +10,7 @@ const About = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>OneBond | About Us</title>
+        <title>Who We Are</title>
         <meta
           name="description"
           content="About page of OneBond."
