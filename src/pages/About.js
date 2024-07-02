@@ -18,7 +18,7 @@ const About = () => {
       </MetaTags>
       <LayoutTwo theme="white">
         {/* breadcrumb */}
-        <Breadcrumb title="About Us" />
+        <Breadcrumb title="who we are" />
         {/* about content */}
         <AboutContent />
         {/* video popup */}
