@@ -1,19 +1,19 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutTwo from "../layouts/LayoutTwo";
-import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
 import AboutContent from "../components/about-contents/AboutContent";
 import AboutContentTwo from "../components/about-contents/AboutContentTwo";
+import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
 import VideoPopup from "../components/video-popups/VideoPopup";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 const About = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Howard | About Us</title>
+        <title>OneBond | About Us</title>
         <meta
           name="description"
-          content="About page of React JS Crypto Currency Template."
+          content="About page of OneBond."
         />
       </MetaTags>
       <LayoutTwo theme="white">

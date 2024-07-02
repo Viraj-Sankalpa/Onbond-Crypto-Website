@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
-import { animateScroll } from "react-scroll";
+import React, { useEffect, useState } from "react";
 import {
   FaFacebookSquare,
+  FaHeart,
   FaLinkedin,
-  FaTwitterSquare,
-  FaVimeoSquare,
   FaTumblrSquare,
-  FaHeart
+  FaTwitterSquare,
+  FaVimeoSquare
 } from "react-icons/fa";
 import { MdExpandLess } from "react-icons/md";
+import { animateScroll } from "react-scroll";
 
 const Footer = ({ theme }) => {
   const [scroll, setScroll] = useState(0);
@@ -81,7 +81,7 @@ const Footer = ({ theme }) => {
                       <a href={process.env.PUBLIC_URL + "/"}>Todays Rate</a>
                     </li>
                     <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>About Howard</a>
+                      <a href={process.env.PUBLIC_URL + "/"}>About OneBond</a>
                     </li>
                     <li>
                       <a href={process.env.PUBLIC_URL + "/"}>Privacy Policy</a>
@@ -128,7 +128,7 @@ const Footer = ({ theme }) => {
                 <h4>Contact</h4>
                 <div className="footer__inner">
                   <ul>
-                    <li>howard@example.info</li>
+                    <li>onebond@example.info</li>
                     <li>
                       Address:
                       <br /> your address here
@@ -155,7 +155,7 @@ const Footer = ({ theme }) => {
             <div className="col-lg-6 col-sm-6 col-12">
               <div className="copyright__inner">
                 <p className="copyright-text">
-                  &copy; Howard {new Date().getFullYear()} Made with <FaHeart />{" "}
+                  &copy; OneBond {new Date().getFullYear()} Made with <FaHeart />{" "}
                   by HasThemes
                 </p>
               </div>

@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
-import LayoutTwo from "../layouts/LayoutTwo";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 const NotFound = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Howard | Not Found</title>
+        <title>OneBond | Not Found</title>
         <meta
           name="description"
           content="404 page of React JS Crypto Currency Template."

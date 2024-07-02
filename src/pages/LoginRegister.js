@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
+import Nav from "react-bootstrap/Nav";
+import Tab from "react-bootstrap/Tab";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
-import LayoutTwo from "../layouts/LayoutTwo";
-import Tab from "react-bootstrap/Tab";
-import Nav from "react-bootstrap/Nav";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 const LoginRegister = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Howard | Login</title>
+        <title>OneBond | Login</title>
         <meta
           name="description"
           content="Login page of React JS Crypto Currency Template."

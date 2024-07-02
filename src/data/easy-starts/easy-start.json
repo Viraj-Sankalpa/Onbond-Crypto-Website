@@ -2,23 +2,29 @@
   {
     "id": "1",
     "icon": "/images/icons/1.png",
-    "title": "Easy Access",
+    "title": "Innovative Solutions",
     "link": "/service-details",
-    "text": "There are many variations of passages Lorem Ipsum available, but the majority have suffered"
+    "text": "We leverage the latest advancements in block chain technology to develop innovative products and services that address the evolving needs of our customers."
   },
   {
     "id": "2",
     "icon": "/images/icons/2.png",
-    "title": "Recharge Wallet",
+    "title": "Security and Trust",
     "link": "/service-details",
-    "text": "There are many variations of passages Lorem Ipsum available, but the majority have suffered"
+    "text": "Security is our top priority. We employ robust security measures and best practices to safeguard our users' assets and ensure peace of mind."
   },
   {
     "id": "3",
     "icon": "/images/icons/3.png",
-    "title": "Go With Coin",
+    "title": "User-Centric Approach",
     "link": "/service-details",
-    "text": "There are many variations of passages Lorem Ipsum available, but the majority have suffered"
+    "text": "We prioritize the user experience, designing intuitive platforms and interfaces that make it easy for anyone to participate in the world of crypto currencies."
+  },
+  {
+    "id": "4",
+    "icon": "/images/icons/3.png",
+    "title": "Transparency and Compliance",
+    "link": "/service-details",
+    "text": "We adhere to the highest standards of transparency and compliance, building trust with our users and regulatory authorities alike."
   }
-
 ]

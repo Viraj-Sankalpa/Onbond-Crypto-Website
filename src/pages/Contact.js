@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutTwo from "../layouts/LayoutTwo";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
 import ContactMap from "../components/contact-maps/ContactMap";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 const Contact = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Howard | Contact</title>
+        <title>OneBond | Contact</title>
         <meta
           name="description"
           content="Contact page of React JS Crypto Currency Template."
@@ -27,7 +27,7 @@ const Contact = () => {
                     src={process.env.PUBLIC_URL + "/images/about/contact.png"}
                     alt="conatct images"
                   />
-                  <h2>Get HOWARD where you need !</h2>
+                  <h2>Get OneBond where you need !</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna

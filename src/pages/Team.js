@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutTwo from "../layouts/LayoutTwo";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
 import TeamContent from "../containers/teams/TeamContent";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 const Team = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Howard | Team</title>
+        <title>OneBond | Team</title>
         <meta
           name="description"
           content="Team page of React JS Crypto Currency Template."

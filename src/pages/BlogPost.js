@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutTwo from "../layouts/LayoutTwo";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
 import BlogPostContent from "../containers/blog/BlogPostContent";
+import LayoutTwo from "../layouts/LayoutTwo";
 
 const BlogPost = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Howard | News Details</title>
+        <title>OneBond | News Details</title>
         <meta
           name="description"
           content="News details page of React JS Crypto Currency Template."

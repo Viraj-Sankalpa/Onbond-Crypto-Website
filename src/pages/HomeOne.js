@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
-import BlogGrid from "../components/blog-grids/BlogGrid";
 import CurrencyCalculation from "../components/currency-calculations/CurrencyCalculation";
 import LiveChart from "../components/live-chart/LiveChart";
 import SecureTransaction from "../components/secure-transactions/SecureTransaction";
@@ -38,10 +37,12 @@ const HomeOne = () => {
         <SecureTransaction />
         {/* live chart */}
         <LiveChart />
+        {/* roadmap */}
+        {/* <RoadMap /> */}
         {/* software download */}
         <SoftwareDownload />
         {/* blog grid */}
-        <BlogGrid />
+        {/* <BlogGrid /> */}
       </LayoutOne>
     </Fragment>
   );
