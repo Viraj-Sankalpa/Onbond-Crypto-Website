@@ -3,7 +3,9 @@ import MetaTags from "react-meta-tags";
 import AboutContent from "../components/about-contents/AboutContent";
 import AboutContentTwo from "../components/about-contents/AboutContentTwo";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
+import JoinUs from "../components/join-us/JoinUs";
 import VideoPopup from "../components/video-popups/VideoPopup";
+import CompanyDetails from "../containers/company-details/CompanyDetails";
 import LayoutTwo from "../layouts/LayoutTwo";
 
 const About = () => {
@@ -25,6 +27,12 @@ const About = () => {
         <VideoPopup />
         {/* about content two */}
         <AboutContentTwo />
+        {/* join us component */}
+        <JoinUs />
+        {/* Secretary, Auditor, Legal & Banker */}
+        <CompanyDetails />
+        <br />
+       
       </LayoutTwo>
     </Fragment>
   );

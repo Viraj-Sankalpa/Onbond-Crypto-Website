@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitleSix from "../../components/ui/section-titles/SectionTitleSix";
-import walletFeatureData from "../../data/wallet-features/wallet-feature-one.json";
 import WalletFeatureSingle from "../../components/wallet-features/WalletFeatureSingle";
+import walletFeatureData from "../../data/wallet-features/wallet-feature-one.json";
 
 const WalletFeature = () => {
   return (
@@ -11,7 +11,7 @@ const WalletFeature = () => {
           <div className="col-lg-12">
             {/* section title */}
             <SectionTitleSix
-              title="What is our wallet features"
+              title="Wallet Features"
               text="Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text"
