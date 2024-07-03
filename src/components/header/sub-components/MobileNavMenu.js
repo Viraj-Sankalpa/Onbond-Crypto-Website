@@ -61,7 +61,10 @@ const MobileNavMenu = () => {
           <Link to={process.env.PUBLIC_URL + "#/"}>Pages</Link>
           <ul className="subMenu">
             <li>
-              <Link to={process.env.PUBLIC_URL + "/about"}>About Us</Link>
+              <Link to={process.env.PUBLIC_URL + "/about"}>Who We Are</Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/whatwedo"}>What We Do</Link>
             </li>
             <li>
               <Link to={process.env.PUBLIC_URL + "/about-bitcoin"}>
