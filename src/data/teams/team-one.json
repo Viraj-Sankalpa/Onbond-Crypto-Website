@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "name": "John Doe",
+    "name": "MR.ASAID AHMED ARABI MOULANA",
     "image": "/images/team/md-img/1.jpg",
     "url": "/",
-    "position": "CEO",
+    "position": "CHAIRMAN",
     "facebookUrl": "//www.facebook.com",
     "googleUrl": "//www.google.com",
     "twitterUrl": "//www.twitter.com",
@@ -12,10 +12,10 @@
   },
   {
     "id": "2",
-    "name": "Virginia Perry",
+    "name": "MR.BALAJI SELVARAJ",
     "image": "/images/team/md-img/2.jpg",
     "url": "/",
-    "position": "COO",
+    "position": "CHIEF EXECUTIVE OFFICER",
     "facebookUrl": "//www.facebook.com",
     "googleUrl": "//www.google.com",
     "twitterUrl": "//www.twitter.com",
@@ -23,46 +23,14 @@
   },
   {
     "id": "3",
-    "name": "Alice Herrera",
+    "name": "Mr.Shyam Sundar V",
     "image": "/images/team/md-img/3.jpg",
     "url": "/",
-    "position": "CTO",
-    "facebookUrl": "//www.facebook.com",
-    "googleUrl": "//www.google.com",
-    "twitterUrl": "//www.twitter.com",
-    "tumblrUrl": "//www.tumblr.com"
-  },
-  {
-    "id": "4",
-    "name": "Raymond Stephens",
-    "image": "/images/team/md-img/4.jpg",
-    "url": "/",
-    "position": "Developer",
-    "facebookUrl": "//www.facebook.com",
-    "googleUrl": "//www.google.com",
-    "twitterUrl": "//www.twitter.com",
-    "tumblrUrl": "//www.tumblr.com"
-  },
-  {
-    "id": "5",
-    "name": "Christopher Bowman",
-    "image": "/images/team/md-img/5.jpg",
-    "url": "/",
-    "position": "Designer",
-    "facebookUrl": "//www.facebook.com",
-    "googleUrl": "//www.google.com",
-    "twitterUrl": "//www.twitter.com",
-    "tumblrUrl": "//www.tumblr.com"
-  },
-  {
-    "id": "6",
-    "name": "Linda Bradley",
-    "image": "/images/team/md-img/6.jpg",
-    "url": "/",
-    "position": "Marketing Officer",
+    "position": "Chief Financial Officer",
     "facebookUrl": "//www.facebook.com",
     "googleUrl": "//www.google.com",
     "twitterUrl": "//www.twitter.com",
     "tumblrUrl": "//www.tumblr.com"
   }
+
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "icon": "/images/icons/1.png",
+    "title": "INVESTMENTS",
+    "link": "/sectors",
+    "text": "We continuously evolve our business model to focus on our key strengths by collaborating with our shareholder, developing our talent and entering world-class partnerships."
+  },
+  {
+    "id": "2",
+    "icon": "/images/icons/2.png",
+    "title": "PROJECTS",
+    "link": "/sectors",
+    "text": "One Bond identifies and develops diverse infrastructure projects across industries. We create opportunities for stakeholders to invest, operate, and develop in various sectors, supporting sustainable growth through sound policies and economic viability."
+  },
+  {
+    "id": "3",
+    "icon": "/images/icons/3.png",
+    "title": "Trading",
+    "link": "/sectors",
+    "text": "We are specialized in importing and exporting commodities including major items like sugar, crude oil, other commodity items, etc., across the globe. We are the experts in trading FMCG and petroleum products worldwide"
+  }
+]
