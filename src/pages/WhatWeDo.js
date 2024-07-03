@@ -1,39 +1,37 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import AboutContent from "../components/about-contents/AboutContent";
 import AboutContentTwo from "../components/about-contents/AboutContentTwo";
 import Breadcrumb from "../components/breadcrumbs/Breadcrumb";
 import JoinUs from "../components/join-us/JoinUs";
-import VideoPopup from "../components/video-popups/VideoPopup";
+import HowWeWork from "../components/what-we-do/HowWeWork";
 import CompanyDetails from "../containers/company-details/CompanyDetails";
-import TeamContent from "../containers/teams/TeamContent";
+import WhatWeDoCards from "../containers/investments-projects-trading/WhatWeDoCards";
 import LayoutTwo from "../layouts/LayoutTwo";
 
-const About = () => {
+const WhatWeDo = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Who We Are</title>
+        <title>What We Do</title>
         <meta
           name="description"
-          content="About page of OneBond."
+          content="What We Do page of OneBond."
         />
       </MetaTags>
       <LayoutTwo theme="white">
         {/* breadcrumb */}
-        <Breadcrumb title="who we are" />
-        {/* about content */}
-        <AboutContent />
-        {/* video popup */}
-        <VideoPopup />
+        <Breadcrumb title="what we do" />
+        
+       {/* investment / projects/ trading */}
+       <WhatWeDoCards />
         {/* about content two */}
         <AboutContentTwo />
         {/* join us component */}
         <JoinUs />
         {/* Secretary, Auditor, Legal & Banker */}
         <CompanyDetails />
-        {/* Our team */}
-        <TeamContent />
+        {/* how we work  */}
+        <HowWeWork />
         <br />
        
       </LayoutTwo>
@@ -41,4 +39,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default WhatWeDo;
