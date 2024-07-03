@@ -12,10 +12,12 @@ import HomeOne from "./pages/HomeOne";
 import LoginRegister from "./pages/LoginRegister";
 import Merchants from "./pages/Merchants";
 import NotFound from "./pages/NotFound";
+import Sectors from "./pages/Sectors";
 import Service from "./pages/Service";
 import ServiceDetails from "./pages/ServiceDetails";
 import Team from "./pages/Team";
 import Wallet from "./pages/Wallet";
+import WhatWeDo from "./pages/WhatWeDo";
 
 function App() {
   return (
@@ -39,6 +41,10 @@ function App() {
           <Route
             path={`${process.env.PUBLIC_URL + "/about"}`}
             component={About}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + "/whatwedo"}`}
+            component={WhatWeDo}
           />
           <Route
             path={`${process.env.PUBLIC_URL + "/about-bitcoin"}`}
@@ -79,6 +85,10 @@ function App() {
           <Route
             path={`${process.env.PUBLIC_URL + "/wallet"}`}
             component={Wallet}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + "/sectors"}`}
+            component={Sectors}
           />
           <Route
             path={`${process.env.PUBLIC_URL + "/login-register"}`}
