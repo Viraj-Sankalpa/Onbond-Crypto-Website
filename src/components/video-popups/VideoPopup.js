@@ -7,7 +7,7 @@ const VideoPopup = () => {
     <div
       className="dg__video__area"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + "/images/bg/8.jpg"})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL + "/images/bg/2.jpg"})`,
       }}
     >
       <div className="container">

@@ -32,6 +32,7 @@ const WhatWeDo = () => {
         <CompanyDetails />
         {/* how we work  */}
         <HowWeWork />
+        
         <br />
        
       </LayoutTwo>

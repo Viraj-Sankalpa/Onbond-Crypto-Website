@@ -1,12 +1,17 @@
 import React from "react";
-import teamData from "../../data/teams/team-one.json";
 import TeamSingle from "../../components/teams/TeamSingle.js";
+import SectionTitle from "../../components/ui/section-titles/SectionTitle.js";
+import teamData from "../../data/teams/team-one.json";
 
 const TeamContent = () => {
   return (
     <section className="dg__team__area section-padding--xl bg--white">
       <div className="container">
-        <div className="row">
+      <SectionTitle
+              title="Our Team"
+              text="We are a team of passionate people who are passionate about the future of the crypto world. We are building a team that is dedicated to building a decentralized future, where financial freedom and opportunity are accessible to all."
+            />
+        {/* <div className="row">
           <div className="col-lg-12">
             <div className="tm__title text-center">
               <img
@@ -20,7 +25,7 @@ const TeamContent = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="team__wrapper">
           <div className="row">
             {teamData &&
