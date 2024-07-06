@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
-import Logo from "../../components/header/Logo";
-import Navigation from "../../components/header/Navigation";
 import HeaderBtn from "../../components/header/HeaderBtn";
+import Logo from "../../components/header/Logo";
 import MobileMenu from "../../components/header/MobileMenu";
+import Navigation from "../../components/header/Navigation";
 
 const Header = ({ theme }) => {
   const [scroll, setScroll] = useState(0);
@@ -33,7 +33,7 @@ const Header = ({ theme }) => {
             {/* logo */}
             <Logo
               image={
-                theme === "white" ? "/images/logo/2.png" : "/images/logo/1.png"
+                theme === "white" ? "/images/logo/1.gif" : "/images/logo/1.gif"
               }
             />
           </div>
