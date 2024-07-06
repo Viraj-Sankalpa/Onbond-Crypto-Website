@@ -1,7 +1,7 @@
 import React from "react";
 import Swiper from "react-id-swiper";
-import SectionTitle from "../../components/ui/section-titles/SectionTitle";
 import BrandLogoSingle from "../../components/brand-logos/BrandLogoSingle";
+import SectionTitle from "../../components/ui/section-titles/SectionTitle";
 import brandLogoData from "../../data/brand-logos/brand-logo-one.json";
 
 const BrandLogo = () => {

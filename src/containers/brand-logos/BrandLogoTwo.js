@@ -1,7 +1,7 @@
 import React from "react";
 import Swiper from "react-id-swiper";
-import SectionTitleThree from "../../components/ui/section-titles/SectionTitleThree";
 import BrandLogoSingle from "../../components/brand-logos/BrandLogoSingle";
+import SectionTitleThree from "../../components/ui/section-titles/SectionTitleThree";
 import brandLogoData from "../../data/brand-logos/brand-logo-one.json";
 
 const BrandLogoTwo = () => {
@@ -43,7 +43,7 @@ const BrandLogoTwo = () => {
           <div className="col-sm-12">
             {/* section title */}
             <SectionTitleThree
-              title="We work Together"
+              title="We work Together!!"
               text="There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour."
