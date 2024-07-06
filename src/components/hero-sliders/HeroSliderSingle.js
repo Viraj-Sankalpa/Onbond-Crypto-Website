@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
-import Particle from "../particles/Particle";
 
 const HeroSliderOneSingle = ({ data }) => {
   return (
@@ -36,7 +35,7 @@ const HeroSliderOneSingle = ({ data }) => {
         </div>
       </div>
       {/* particle */}
-      <Particle />
+      {/* <Particle /> */}
     </div>
   );
 };
