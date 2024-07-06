@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import HeaderBtn from "../../components/header/HeaderBtn";
 import Logo from "../../components/header/Logo";
 import MobileMenu from "../../components/header/MobileMenu";
-import Navigation from "../../components/header/Navigation";
 
 const Header = ({ theme }) => {
   const [scroll, setScroll] = useState(0);
@@ -39,7 +38,7 @@ const Header = ({ theme }) => {
           </div>
           <div className="col-lg-7 col-xl-8 d-none d-lg-block">
             {/* navigation */}
-            <Navigation />
+            {/* <Navigation /> */}
           </div>
           <div className="col-lg-3 col-xl-2 col-6">
             {/* header buttons */}

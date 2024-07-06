@@ -74,7 +74,7 @@ const HomeOne = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>OneBond | Home One</title>
+        <title>OneBond | Home</title>
         <meta
           name="description"
           content="Homepage of OneBond Crypto Currency Website."

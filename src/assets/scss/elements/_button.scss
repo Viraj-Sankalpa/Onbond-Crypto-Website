@@ -24,8 +24,9 @@ a.dg__btn {
         background: #F7A901 none repeat scroll 0 0;
     }
     &.btn--white {
+        border: 1px solid #F7A901;
         color: #F7A901;
-        background: #FFF none repeat scroll 0 0;
+        background: #000000 none repeat scroll 0 0;
         &:hover {
             color: #FFF;
             background: #F7A901 none repeat scroll 0 0;
@@ -36,7 +37,7 @@ a.dg__btn {
 .dg__btn.btn--trans {
     line-height: 48px;
 
-    color: #1A1200;
+    color: #ffffff;
     border: 1px solid #F7A901;
     background: transparent none repeat scroll 0 0;
 }
