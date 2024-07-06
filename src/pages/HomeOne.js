@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
 import LiveChart from "../components/live-chart/LiveChart";
-
+import MembershipPlan from "../components/membership-plans/MembershipPlan";
 import Roadmap from "../components/road-map/RoadMap";
 import SecureTransaction from "../components/secure-transactions/SecureTransaction";
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
@@ -16,7 +16,7 @@ import LayoutOne from "../layouts/LayoutOne";
 const HomeOne = () => {
   const roadmapItems = [
     {
-      title: 'Launch Phase',
+      title: "Launch Phase",
       description: `
         - To develop a P2P engine and implement algorithms that deal with the establishment of the infrastructure of the project.
         - Optimize the workflows, research, and design the UI concerning the user research and practice exploration for Blockchain Explorer.
@@ -26,7 +26,7 @@ const HomeOne = () => {
       number: 1,
     },
     {
-      title: 'Development Phase',
+      title: "Development Phase",
       description: `
         - Integration of proof of work consensus mechanism and protocols for node communication.
         - Implement data structuring algorithms, UI-based framework deployment, and modular architecture design.
@@ -34,7 +34,7 @@ const HomeOne = () => {
       number: 2,
     },
     {
-      title: 'Launch Phase',
+      title: "Launch Phase",
       description: `
         - To develop a P2P engine and implement algorithms that deal with the establishment of the infrastructure of the project.
         - Optimize the workflows, research, and design the UI concerning the user research and practice exploration for Blockchain Explorer.
@@ -44,7 +44,7 @@ const HomeOne = () => {
       number: 1,
     },
     {
-      title: 'Development Phase',
+      title: "Development Phase",
       description: `
         - Integration of proof of work consensus mechanism and protocols for node communication.
         - Implement data structuring algorithms, UI-based framework deployment, and modular architecture design.
@@ -52,7 +52,7 @@ const HomeOne = () => {
       number: 2,
     },
     {
-      title: 'Launch Phase',
+      title: "Launch Phase",
       description: `
         - To develop a P2P engine and implement algorithms that deal with the establishment of the infrastructure of the project.
         - Optimize the workflows, research, and design the UI concerning the user research and practice exploration for Blockchain Explorer.
@@ -62,7 +62,7 @@ const HomeOne = () => {
       number: 1,
     },
     {
-      title: 'Development Phase',
+      title: "Development Phase",
       description: `
         - Integration of proof of work consensus mechanism and protocols for node communication.
         - Implement data structuring algorithms, UI-based framework deployment, and modular architecture design.
@@ -87,19 +87,30 @@ const HomeOne = () => {
         <CurrencyTicker />
         {/* website about - home */}
         <AboutHome />
-        {/* road map here */}
+
+        {/* roadmap */}
+        <div>
+          <SectionTitle
+            title="RoadMap"
+            text="We are working on a new way to invest in cryptocurrencies."
+          />
+          <div className="home-page">
+            <Roadmap items={roadmapItems} />
+          </div>
+        </div>
+
+        <br />
+
+        {/* membership plan */}
+        <MembershipPlan />
 
         {/* video popup */}
         <VideoPopup />
 
-        {/* membership plan */}
-
         {/* counter up */}
         {/* <CounterUp backgroundImage="/images/bg/2.jpg" /> */}
 
-       
         {/* listings */}
-
 
         {/* team */}
         <TeamContent />
@@ -107,25 +118,12 @@ const HomeOne = () => {
         {/* auditor legal secerety */}
         <SecureTransaction />
 
-
         {/* Toconomic chart */}
         <LiveChart />
 
-<br />
-
-        {/* roadmap */}
-        <div>
-        <SectionTitle
-              title="RoadMap"
-              text="We are working on a new way to invest in cryptocurrencies."
-            />
-          <div className="home-page">
-      <Roadmap items={roadmapItems} />
-    </div>
-        </div>
+        <br />
 
         {/* faq */}
-
 
         {/* software download */}
         <SoftwareDownload />
