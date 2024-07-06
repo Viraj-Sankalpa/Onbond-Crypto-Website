@@ -7,7 +7,10 @@
 
     text-align: center;
 
-    background: #FFF none repeat scroll 0 0;
+    // background: #FFF none repeat scroll 0 0;
+    // background: #F7AB00 none repeat scroll 0 0;
+    background: rgb(247,171,0);
+background: radial-gradient(circle, rgba(247,171,0,1) 0%, rgba(121,84,9,1) 39%, rgba(0,0,0,1) 100%);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
