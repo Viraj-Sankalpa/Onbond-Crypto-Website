@@ -36,6 +36,7 @@ const AboutHome = () => {
             <div className="dg__secure__thumb">
               <img
                 src={process.env.PUBLIC_URL + "/images/about/2.png"}
+                // src={process.env.PUBLIC_URL + "/images/logo/1.gif"}
                 alt="secure images"
                 className="img-fluid"
               />

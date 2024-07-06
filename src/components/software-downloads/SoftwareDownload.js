@@ -2,7 +2,7 @@ import React from "react";
 
 const SoftwareDownload = () => {
   return (
-    <div className="dg__software__area section-padding--tb bg--white">
+    <div className="dg__software__area section-padding--tb ">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12 col-12">

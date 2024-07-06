@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { FaFacebookF, FaTwitter, FaGoogle, FaTumblr } from "react-icons/fa";
+import { FaFacebookF, FaGoogle, FaTumblr, FaTwitter } from "react-icons/fa";
 
 const TeamSingle = ({ data }) => {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+    <div className="col-lg-4 col-md-6 col-sm-6 col-12 comp-team">
       <div className="team">
         <div className="thumb">
           <a

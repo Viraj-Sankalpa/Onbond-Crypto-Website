@@ -20,7 +20,7 @@ const HeroSliderOneSingle = ({ data }) => {
                 className="slide__btn dg__btn btn--white"
                 to={process.env.PUBLIC_URL + data.url}
               >
-                Learn More
+                Buy Tokens
               </Link>
             </div>
           </div>

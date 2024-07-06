@@ -5,7 +5,7 @@ import teamData from "../../data/teams/team-one.json";
 
 const TeamContent = () => {
   return (
-    <section className="dg__team__area section-padding--xl bg--white">
+    <section className="dg__team__area section-padding--xl ">
       <div className="container">
       <SectionTitle
               title="Our Team"

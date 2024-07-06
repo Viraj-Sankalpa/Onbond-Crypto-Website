@@ -1,3 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('../../../../public/images/bg/full.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
 .roadmap {
   position: relative;
   padding: 50px 0;
@@ -5,4 +17,5 @@
   flex-direction: column;
   align-items: center;
   // background-color: #F7AB00; 
+  
 }
