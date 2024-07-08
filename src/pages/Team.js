@@ -11,7 +11,7 @@ const Team = () => {
         <title>OneBond | Team</title>
         <meta
           name="description"
-          content="Team page of React JS Crypto Currency Template."
+          content="Team page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

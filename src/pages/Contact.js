@@ -11,7 +11,7 @@ const Contact = () => {
         <title>OneBond | Contact</title>
         <meta
           name="description"
-          content="Contact page of React JS Crypto Currency Template."
+          content="Contact page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

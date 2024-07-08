@@ -12,7 +12,7 @@ const Service = () => {
         <title>OneBond | Service</title>
         <meta
           name="description"
-          content="Service page of React JS Crypto Currency Template."
+          content="Service page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

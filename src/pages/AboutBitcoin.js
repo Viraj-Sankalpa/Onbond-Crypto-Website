@@ -15,7 +15,7 @@ const AboutBitcoin = () => {
         <title>OneBond | About Bitcoin</title>
         <meta
           name="description"
-          content="About bitcoin page of React JS Crypto Currency Template."
+          content="About bitcoin page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

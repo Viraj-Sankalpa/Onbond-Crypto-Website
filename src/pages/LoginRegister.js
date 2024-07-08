@@ -13,7 +13,7 @@ const LoginRegister = () => {
         <title>OneBond | Login</title>
         <meta
           name="description"
-          content="Login page of React JS Crypto Currency Template."
+          content="Login page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

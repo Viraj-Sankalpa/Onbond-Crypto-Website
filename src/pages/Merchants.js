@@ -11,7 +11,7 @@ const Merchants = () => {
         <title>OneBond | Merchants</title>
         <meta
           name="description"
-          content="Merchants page of React JS Crypto Currency Template."
+          content="Merchants page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

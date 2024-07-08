@@ -11,7 +11,7 @@ const NotFound = () => {
         <title>OneBond | Not Found</title>
         <meta
           name="description"
-          content="404 page of React JS Crypto Currency Template."
+          content="404 page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

@@ -11,7 +11,7 @@ const Blog = () => {
         <title>OneBond | Latest News</title>
         <meta
           name="description"
-          content="Blog page of React JS Crypto Currency Template."
+          content="Blog page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">

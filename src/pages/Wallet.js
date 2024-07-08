@@ -15,7 +15,7 @@ const Wallet = () => {
         <title>OneBond | Wallet</title>
         <meta
           name="description"
-          content="Wallet page of React JS Crypto Currency Template."
+          content="Wallet page of OneBond WebSite."
         />
       </MetaTags>
       <LayoutTwo theme="white">
