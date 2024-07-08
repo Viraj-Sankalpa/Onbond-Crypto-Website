@@ -9,7 +9,7 @@
 
         margin-top: 48px;
 
-        color: #1752B4;
+        color: #F7AB00;
     }
     p {
         padding: 0 20%;
@@ -37,7 +37,7 @@
 
         text-transform: uppercase;
 
-        color: #03193D;
+        color: #F7AB00;
     }
     input {
         width: 450px;
@@ -71,7 +71,7 @@
         color: #FFF;
         border: 0 none;
         border-radius: 5px;
-        background: #1752B4 none repeat scroll 0 0;
+        background: #0e0e0f none repeat scroll 0 0;
         &:hover {
             background: #F7A901 none repeat scroll 0 0;
         }
@@ -85,8 +85,11 @@
 
 .google__map {
     position: relative;
+    padding-top: 200px;
+    padding-left: 200px;
+    
 
-    width: 100%;
+    width: 50%;
     height: 750px;
 }
 
