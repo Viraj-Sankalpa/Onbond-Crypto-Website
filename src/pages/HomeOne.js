@@ -12,6 +12,8 @@ import CurrencyTicker from "../containers/currency-tickers/CurrencyTicker";
 import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import TeamContent from "../containers/teams/TeamContent";
 import LayoutOne from "../layouts/LayoutOne";
+import ContactForm from "./ContactForm";
+import FAQ from "./FAQ";
 
 const HomeOne = () => {
   const roadmapItems = [
@@ -102,7 +104,14 @@ const HomeOne = () => {
         <br />
 
         {/* membership plan */}
+        <div>
+        <SectionTitle
+            title="Packages"
+            text="We are working on a new way to invest in cryptocurrencies."
+          />
+        
         <MembershipPlan />
+        </div>
 
         {/* video popup */}
         <VideoPopup />
@@ -127,6 +136,13 @@ const HomeOne = () => {
 
         {/* software download */}
         <SoftwareDownload />
+
+        {/* faq */}
+        <FAQ />
+
+        {/* contact form */}
+        <ContactForm />
+
         {/* blog grid */}
         {/* <BlogGrid /> */}
       </LayoutOne>

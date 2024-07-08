@@ -1,56 +1,94 @@
 $primary-color: #F7AB00;
-// $background-color: #000000;
-$text-color: #000;
-$button-color: #000;
-$button-text-color: #fff;
-$button-hover-color: #333;
-$card-width: 200px;
+$background-color: rgba(0, 0, 0, 0.7); // Semi-transparent dark background
+$text-color: #fff;
+$card-border-color: $primary-color;
 
-.membership-plan {
+.package-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 100px;
   padding: 20px;
-//   background-color: $background-color;
+  background-color: transparent; // Ensure the container is transparent
+}
 
-  .card {
+.package-card {
+  background-color: $background-color;
+  border: 2px solid $card-border-color;
+  border-radius: 10px;
+  color: $text-color;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Add some shadow for depth
+
+  h3 {
+    font-size: 24px;
+    color: $primary-color;
+  }
+
+  .roi {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     background-color: $primary-color;
-    border: 2px solid black;
-    border-radius: 10px;
-    color: $text-color;
-    padding: 20px;
-    width: $card-width;
+    border-radius: 50%;
+    padding: 10px 20px;
     text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
+    color: $background-color;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Add some shadow for depth
 
-    &:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    span {
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
     }
 
-    h2 {
-      margin-bottom: 10px;
-      color: whitesmoke;
+    p {
+      margin: 0;
+      font-size: 12px;
     }
+  }
+
+  p {
+    margin: 10px 0;
+    color: $text-color;
+  }
+
+  .commissions {
+    margin-top: 20px;
 
     p {
       margin: 5px 0;
     }
+  }
 
-    .get-plan-button {
-      background-color: $button-color;
-      color: $button-text-color;
-      border: none;
-      border-radius: 5px;
-      padding: 10px 20px;
-      cursor: pointer;
-      margin-top: 10px;
-      transition: background-color 0.3s;
+  .invest-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: $primary-color;
+    border: none;
+    border-radius: 5px;
+    color: $background-color;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 
-      &:hover {
-        background-color: $button-hover-color;
-      }
+    &:hover {
+      background-color: darken($primary-color, 10%);
     }
+  }
+}
+
+@media (max-width: 900px) {
+  .package-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .package-card {
+    width: 100%;
   }
 }
