@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/scss/blocks/FAQ.scss';
+import SectionTitle from '../components/ui/section-titles/SectionTitle';
 
 const faqData = [
   {
@@ -37,6 +38,10 @@ const FAQ = () => {
 
   return (
     <div className="faq-container">
+      <SectionTitle
+        title="FAQ"
+        text="Frequently Asked Questions"
+      />
       {faqData.map((item, index) => (
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
