@@ -8,6 +8,8 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import BlogRightSidebar from "./pages/BlogRightSidebar";
 import Contact from "./pages/Contact";
+import ContactForm from "./pages/ContactForm";
+import FAQ from "./pages/FAQ";
 import HomeOne from "./pages/HomeOne";
 import LoginRegister from "./pages/LoginRegister";
 import Merchants from "./pages/Merchants";
@@ -97,6 +99,14 @@ function App() {
           <Route
             path={`${process.env.PUBLIC_URL + "/not-found"}`}
             component={NotFound}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + "/contact-form"}`}
+            component={ContactForm}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + "/faq"}`}
+            component={FAQ}
           />
           <Route exact component={NotFound} />
         </Switch>
