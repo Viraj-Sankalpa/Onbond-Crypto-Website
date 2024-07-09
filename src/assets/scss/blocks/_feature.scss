@@ -3,67 +3,112 @@
 --------------------------*/
 
 .dg__feature__area .container-fluid {
-
+    
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .feature {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 20px;
-    padding: 50px 0;
+    padding: 20px;
     text-align: left;
+    border: 1px solid #F7AB00;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .icon img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .content {
         padding-left: 25px;
+
         p {
-           
             max-width: 226px;
-            color: #0c1d3c;
-            // color: #dbbb07;
-            line-height: 15px;
-            
+            color: #eceff4;
+            line-height: 1.5;
         }
+
         h2 {
-            color: #000000;
+            color: #F7AB00;
             font-size: 24px;
             font-weight: 700;
             line-height: 25px;
             margin-bottom: 12px;
             text-transform: uppercase;
         }
+
+        h6 {
+            color: #c3911e;
+        }
     }
 }
 
 .feature {
-
     &.bg--1 {
-        background: #e3f8ff none repeat scroll 0 0;
+        background: transparent;
         min-height: 316px;
     }
+
     &.bg--2 {
         background: #cbf0fc none repeat scroll 0 0;
     }
+
     &.bg--3 {
         background: #baeeff none repeat scroll 0 0;
     }
+
     &.bg--4 {
         background: #a3e8ff none repeat scroll 0 0;
     }
 }
 
-/* Responsive Css*/
+/* Responsive Css */
 
-@media #{$xlg-layout} {
+@media (max-width: 1200px) {
     .feature .content {
         padding-left: 6px;
     }
 }
 
-@media #{$md-layout} {}
+@media (max-width: 992px) {
+    .col-lg-2 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
 
-@media #{$sm-layout} {}
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 
-@media #{$xs-layout} {}
+@media (max-width: 576px) {
+    .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 
-@media #{$xxs-layout} {}
+/* Custom styles to center the cards */
+.row.justify-content-center {
+    justify-content: center;
+}
+
+.col-lg-2,
+.col-md-3,
+.col-sm-4,
+.col-6 {
+    display: flex;
+    justify-content: center;
+}

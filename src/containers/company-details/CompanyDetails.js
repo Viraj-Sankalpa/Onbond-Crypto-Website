@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyDetailsSingle from "../../components/CompanyDetails/CompanyDetailsSingle";
+import SectionTitle from "../../components/ui/section-titles/SectionTitle";
 import companyDetailsData from "../../data/company-details/CompanyDetails.json";
 
 const CompanyDetails = () => {
@@ -8,13 +9,11 @@ const CompanyDetails = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            {/* section title
-            <SectionTitleSix
-              title="Our Company Secretary"
-              text="Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text"
-            /> */}
+            {/* section title */}
+            <SectionTitle
+              title="Auditor | Legal | Secerety"
+              text="We are working on a new way to invest in cryptocurrencies."
+            />
           </div>
         </div>
       </div>

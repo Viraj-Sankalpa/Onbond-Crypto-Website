@@ -8,6 +8,7 @@ import SecureTransaction from "../components/secure-transactions/SecureTransacti
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
 import VideoPopup from "../components/video-popups/VideoPopup";
+import CompanyDetails from "../containers/company-details/CompanyDetails";
 import CurrencyTicker from "../containers/currency-tickers/CurrencyTicker";
 import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import TeamContent from "../containers/teams/TeamContent";
@@ -125,6 +126,8 @@ const HomeOne = () => {
         <TeamContent />
 
         {/* auditor legal secerety */}
+        <CompanyDetails />
+        
         <SecureTransaction />
 
         {/* Toconomic chart */}
