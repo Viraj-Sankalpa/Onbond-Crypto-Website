@@ -113,11 +113,14 @@
     .contact__title img {
         width: 100%;
     }
-    .google__map {
-        margin-right: -15px;
-    }
-    .google__map {
-        margin-right: -30px;
+    // .google__map {
+    //     margin-right: -15px;
+    // }
+    // .google__map {
+    //     margin-right: -30px;
+    // }
+    .google__map{
+        display: none;
     }
     .contact__title p {
         padding: 0 8%;
@@ -161,7 +164,8 @@
         padding-left: 20px;
     }
     .google__map {
-        margin-right: 0;
+        // margin-right: 0;
+        display: none;
     }
     .single-contact-form input {
         width: 100%;
