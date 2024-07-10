@@ -106,7 +106,7 @@ const HomeOne = () => {
         {/* membership plan */}
         <div>
         <SectionTitle
-            title="Packages"
+            title="Membership Plan"
             text="We are working on a new way to invest in cryptocurrencies."
           />
         
