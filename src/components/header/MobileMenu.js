@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import MobileMenuSearch from "./sub-components/MobileSearch";
-import MobileNavMenu from "./sub-components/MobileNavMenu";
-import MobileWidgets from "./sub-components/MobileWidgets";
 import { IoMdClose } from "react-icons/io";
+import MobileNavMenu from "./sub-components/MobileNavMenu";
+import MobileMenuSearch from "./sub-components/MobileSearch";
+import MobileWidgets from "./sub-components/MobileWidgets";
 
 const MobileMenu = () => {
   useEffect(() => {

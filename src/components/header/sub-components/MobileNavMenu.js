@@ -7,7 +7,7 @@ const MobileNavMenu = () => {
       <ul>
         <li className="menuItemHasChildren">
           <Link to={process.env.PUBLIC_URL + "/"}>Home</Link>
-          <ul className="subMenu">
+          {/* <ul className="subMenu">
             <li>
               <Link to={process.env.PUBLIC_URL + "/home-one"}>Home One</Link>
             </li>
@@ -22,10 +22,10 @@ const MobileNavMenu = () => {
             <li>
               <Link to={process.env.PUBLIC_URL + "/home-four"}>Home Four</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
 
-        <li className="menuItemHasChildren">
+        {/* <li className="menuItemHasChildren">
           <Link to={process.env.PUBLIC_URL + "/service"}>Service</Link>
           <ul className="subMenu">
             <li>
@@ -37,9 +37,9 @@ const MobileNavMenu = () => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
 
-        <li className="menuItemHasChildren">
+        {/* <li className="menuItemHasChildren">
           <Link to={process.env.PUBLIC_URL + "/blog"}>News</Link>
           <ul className="subMenu">
             <li>
@@ -56,8 +56,8 @@ const MobileNavMenu = () => {
               </Link>
             </li>
           </ul>
-        </li>
-        <li className="menuItemHasChildren">
+        </li> */}
+        {/* <li className="menuItemHasChildren">
           <Link to={process.env.PUBLIC_URL + "#/"}>Pages</Link>
           <ul className="subMenu">
             <li>
@@ -92,7 +92,7 @@ const MobileNavMenu = () => {
         </li>
         <li>
           <Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
