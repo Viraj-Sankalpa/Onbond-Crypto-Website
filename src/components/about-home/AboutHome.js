@@ -26,7 +26,7 @@ const AboutHome = () => {
               </p>
               <Link
                 className="secure__btn dg__btn btn--trans"
-                to={process.env.PUBLIC_URL + "/about"}
+                to={process.env.PUBLIC_URL + "/"}
               >
                 read more
               </Link>
