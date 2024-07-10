@@ -1,11 +1,10 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
-import LiveChart from "../components/live-chart/LiveChart";
 import MembershipPlan from "../components/membership-plans/MembershipPlan";
 import Roadmap from "../components/road-map/RoadMap";
 import SecureTransaction from "../components/secure-transactions/SecureTransaction";
-import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
+import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
 import VideoPopup from "../components/video-popups/VideoPopup";
 import CompanyDetails from "../containers/company-details/CompanyDetails";
@@ -131,14 +130,24 @@ const HomeOne = () => {
         <SecureTransaction />
 
         {/* Toconomic chart */}
-        <LiveChart />
+        <div>
+        <SectionTitle
+            title="Tokenomic Chart"
+            text="We are working on a new way to invest in cryptocurrencies."
+          />
+
+        <TokenomicsChart />
+
+        </div>
+        
+        
 
         <br />
 
-        {/* faq */}
+   
 
         {/* software download */}
-        <SoftwareDownload />
+        {/* <SoftwareDownload /> */}
 
         {/* faq */}
         <FAQ />
