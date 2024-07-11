@@ -26,11 +26,11 @@ const HeroSliderOneSingle = ({ data }) => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-12 col-12">
             <div className="slider__fornt text-right">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + data.image}
                 alt="slider images"
                 className="img-fluid"
-              />
+              /> */}
             </div>
           </div>
         </div>
