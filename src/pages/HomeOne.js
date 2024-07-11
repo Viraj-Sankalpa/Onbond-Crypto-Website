@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
 import MembershipPlan from "../components/membership-plans/MembershipPlan";
-import SecureTransaction from "../components/secure-transactions/SecureTransaction";
+import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
 import TimelineComponent from "../components/timeline/TimelineComponent";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
@@ -127,8 +127,14 @@ const HomeOne = () => {
 
         {/* auditor legal secerety */}
         <CompanyDetails />
+
+
+        {/* App download */}
+        <SoftwareDownload />
         
-        <SecureTransaction />
+      {/* secure transaction */}
+
+        {/* <SecureTransaction /> */}
 
         {/* Toconomic chart */}
         <div>
@@ -147,8 +153,7 @@ const HomeOne = () => {
 
    
 
-        {/* software download */}
-        {/* <SoftwareDownload /> */}
+        
 
         {/* faq */}
         <FAQ />

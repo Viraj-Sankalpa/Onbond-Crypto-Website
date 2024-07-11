@@ -7,12 +7,17 @@ const SoftwareDownload = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12 col-12">
             <div className="dg__software__inner">
-              <h2>Download Software, Compatible For All Devices</h2>
+              <h2>Download Mobile app, Compatible For All Devices</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation. Ut enim ad
-                minim veniam, quis nostrud exercitation.
+                The One Bond Coin mobile app offers seamless cryptocurrency
+                management across all devices. Whether you're using a
+                smartphone, tablet, or any other mobile platform, this versatile
+                application ensures you stay connected to your digital assets on
+                the go. With its user-friendly interface and cross-device
+                compatibility, the app allows you to track, trade, and manage
+                your One Bond Coins effortlessly. Download now to experience
+                secure and convenient crypto handling, tailored to fit your
+                lifestyle and preferred device.
               </p>
               <ul className="avilable__device">
                 <li>
