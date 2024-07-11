@@ -1,15 +1,16 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
+import videoBg from "../../assets/video/onebond-video-1.mp4";
 
 const HeroSliderOneSingle = ({ data }) => {
   return (
-    <div
-      className="slide d-flex bg-image--1 align__center poss--relative"
-      style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + data.backgroundImage})`
-      }}
-    >
+    <div className="slide d-flex align__center poss--relative">
+      <video autoPlay muted loop className="video-background">
+        <source src={videoBg} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center">

@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
 import MembershipPlan from "../components/membership-plans/MembershipPlan";
-import Roadmap from "../components/road-map/RoadMap";
 import SecureTransaction from "../components/secure-transactions/SecureTransaction";
+import TimelineComponent from "../components/timeline/TimelineComponent";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
 import VideoPopup from "../components/video-popups/VideoPopup";
@@ -91,15 +91,16 @@ const HomeOne = () => {
         <AboutHome />
 
         {/* roadmap */}
+       
         <div>
-          <SectionTitle
+        <SectionTitle
             title="RoadMap"
             text="We are working on a new way to invest in cryptocurrencies."
           />
-          <div className="home-page">
-            <Roadmap items={roadmapItems} />
-          </div>
+          <TimelineComponent />
         </div>
+
+        
 
         <br />
 
