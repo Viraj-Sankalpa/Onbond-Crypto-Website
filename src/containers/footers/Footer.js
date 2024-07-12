@@ -156,7 +156,7 @@ const Footer = ({ theme }) => {
               <div className="copyright__inner">
                 <p className="copyright-text">
                   &copy; OneBond {new Date().getFullYear()} Made with <FaHeart />{" "}
-                  by HasThemes
+                  by Cloudops solution.
                 </p>
               </div>
             </div>
