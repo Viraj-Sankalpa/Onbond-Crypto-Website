@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link } from "react-router-dom";
 import videoBg from "../../assets/video/onebond-video-1.mp4";
 
 const HeroSliderOneSingle = ({ data }) => {
@@ -16,12 +15,12 @@ const HeroSliderOneSingle = ({ data }) => {
           <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center">
             <div className="slide__inner">
               <h1>{data.title}</h1>
-              <Link
+              {/* <Link
                 className="slide__btn dg__btn btn--white"
                 to={process.env.PUBLIC_URL + data.url}
               >
                 Buy Tokens
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-12 col-12">

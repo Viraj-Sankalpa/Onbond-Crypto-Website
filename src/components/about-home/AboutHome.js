@@ -35,8 +35,8 @@ const AboutHome = () => {
           <div className="col-lg-5 mb-4 mb-lg-0">
             <div className="dg__secure__thumb">
               <img
-                src={process.env.PUBLIC_URL + "/images/about/2.png"}
-                // src={process.env.PUBLIC_URL + "/images/logo/1.gif"}
+                // src={process.env.PUBLIC_URL + "/images/about/2.png"}
+                src={process.env.PUBLIC_URL + "/images/about/about-comp.gif"}
                 alt="secure images"
                 className="img-fluid"
               />

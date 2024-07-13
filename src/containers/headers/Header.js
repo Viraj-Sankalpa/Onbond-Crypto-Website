@@ -32,7 +32,7 @@ const Header = ({ theme }) => {
             {/* logo */}
             <Logo
               image={
-                theme === "white" ? "/images/logo/1.gif" : "/images/logo/1.gif"
+                theme === "white" ? "/images/logo/logo-final.gif" : "/images/logo/logo-final.gif"
               }
             />
           </div>

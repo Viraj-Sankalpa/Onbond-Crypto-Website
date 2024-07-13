@@ -8,7 +8,6 @@ import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
 import VideoPopup from "../components/video-popups/VideoPopup";
 import CompanyDetails from "../containers/company-details/CompanyDetails";
-import CurrencyTicker from "../containers/currency-tickers/CurrencyTicker";
 import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import TeamContent from "../containers/teams/TeamContent";
 import LayoutOne from "../layouts/LayoutOne";
@@ -85,8 +84,7 @@ const HomeOne = () => {
       <LayoutOne>
         {/* hero slider */}
         <HeroSlider />
-        {/* currency ticker */}
-        <CurrencyTicker />
+        
         {/* website about - home */}
         <AboutHome />
 
