@@ -1,0 +1,27 @@
+// Slick Carousel Overrides
+.slick-dots {
+    bottom: 10px;
+  
+    li {
+      margin: 0 5px;
+    }
+  
+    button:before {
+      color: #fff;
+      font-size: 12px;
+    }
+  
+    .slick-active button:before {
+      color: #06d6a0;
+    }
+  }
+  
+  .slick-prev,
+  .slick-next {
+    color: #fff;
+    &:before {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+  

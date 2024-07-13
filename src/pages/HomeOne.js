@@ -7,7 +7,6 @@ import TimelineComponent from "../components/timeline/TimelineComponent";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
 import VideoPopup from "../components/video-popups/VideoPopup";
-import CompanyDetails from "../containers/company-details/CompanyDetails";
 import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import TeamContent from "../containers/teams/TeamContent";
 import LayoutOne from "../layouts/LayoutOne";
@@ -122,10 +121,7 @@ const HomeOne = () => {
 
         {/* team */}
         <TeamContent />
-
-        {/* auditor legal secerety */}
-        <CompanyDetails />
-
+       
 
         {/* App download */}
         <SoftwareDownload />

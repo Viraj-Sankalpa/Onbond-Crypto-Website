@@ -1,7 +1,6 @@
 import React from "react";
-import TeamSingle from "../../components/teams/TeamSingle.js";
+import TeamCarousel from "../../components/teams/TeamCarousel.js";
 import SectionTitle from "../../components/ui/section-titles/SectionTitle.js";
-import teamData from "../../data/teams/team-one.json";
 
 const TeamContent = () => {
   return (
@@ -26,14 +25,15 @@ const TeamContent = () => {
             </div>
           </div>
         </div> */}
-        <div className="team__wrapper">
+        {/* <div className="team__wrapper">
           <div className="row">
             {teamData &&
               teamData.map((single, key) => {
                 return <TeamSingle data={single} key={key} />;
               })}
           </div>
-        </div>
+        </div> */}
+        <TeamCarousel />
       </div>
     </section>
   );
