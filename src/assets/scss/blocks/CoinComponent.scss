@@ -1,0 +1,25 @@
+.coin-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    justify-content: center;
+  }
+  
+  .coin {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  
+
+  }
+  
+
+
+  
+  .button-container {
+    display: flex;
+    gap: 30px;
+  }

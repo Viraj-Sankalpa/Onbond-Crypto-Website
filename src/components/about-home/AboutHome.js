@@ -9,20 +9,22 @@ const AboutHome = () => {
           <div className="col-lg-7">
             <div className="dg__secure__inner">
               <h2>
-              One Bond Coin: Pioneering Accessible, Secure, and Transparent Financial Services
+                One Bond Coin: Pioneering Accessible, Secure, and Transparent
+                Financial Services
               </h2>
               <p>
-                The OBC (One Bond Coin) aims to bridge the gap between
-                traditional finance and the crypto world by offering a
-                comprehensive suite of financial services that cater to the
-                needs of the crypto users with access to a range of financial
-                services that are secure, transparent, and user-friendly.
+                One Bond is a digital currency that operates as a globally
+                distributed network of computers adhering to the One Bond
+                protocol. Serving as a robust infrastructure, One Bond empowers
+                communities, applications, organizations, and digital assets,
+                facilitating their creation and utilization.
               </p>
               <p>
-                One of the key ways in which the OBC (One Bond Coin) solve the
-                problem of the gap between traditional finance and the crypto
-                world is by offering users access to both fiat and crypto-based
-                financial services.
+                Accessible from anywhere and at any time, you can establish a
+                One Bond account to delve into a realm of applications or
+                develop your own. A key breakthrough lies in the ability to
+                engage in these activities without reliance on a central
+                authority capable of altering rules or limiting access.
               </p>
               <Link
                 className="secure__btn dg__btn btn--trans"

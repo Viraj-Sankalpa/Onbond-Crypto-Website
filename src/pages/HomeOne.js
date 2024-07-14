@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
-import MembershipPlan from "../components/membership-plans/MembershipPlan";
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
 import TimelineComponent from "../components/timeline/TimelineComponent";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
@@ -10,6 +9,7 @@ import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import TeamContent from "../containers/teams/TeamContent";
 import LayoutOne from "../layouts/LayoutOne";
 
+import CoinComponent from "../components/coin-component/CoinComponent";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import ContactForm from "./ContactForm";
 import FAQ from "./FAQ";
@@ -29,6 +29,9 @@ const HomeOne = () => {
         {/* hero slider */}
         <HeroSlider />
 
+        {/* coin and two buttons */}
+        <CoinComponent/>
+
         {/* website about - home */}
         <AboutHome />
 
@@ -45,14 +48,14 @@ const HomeOne = () => {
         <br />
 
         {/* membership plan */}
-        <div>
+        {/* <div>
           <SectionTitle
             title="Membership Plan"
             text="We are working on a new way to invest in cryptocurrencies."
           />
 
           <MembershipPlan />
-        </div>
+        </div> */}
 
         {/* video popup */}
         <VideoPopup />
