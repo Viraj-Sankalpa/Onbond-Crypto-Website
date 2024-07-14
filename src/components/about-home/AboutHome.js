@@ -9,8 +9,7 @@ const AboutHome = () => {
           <div className="col-lg-7">
             <div className="dg__secure__inner">
               <h2>
-                One Bond Coin: Pioneering Accessible, Secure, and Transparent
-                Financial Services
+                What is One Bond Coin
               </h2>
               <p>
                 One Bond is a digital currency that operates as a globally
