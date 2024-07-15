@@ -1,94 +1,48 @@
-$primary-bg: #1a1a1a;
-$secondary-bg: #2a2a2a;
-$highlight-bg: #333;
-$border-color: #444;
-$button-bg: #f7a901;
-$button-hover-bg: #dc9702;
-$text-color: #fff;
-
-.crypto-listings {
-  margin: 40px;
+.logos-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
-  color: $text-color;
-  background-color: $primary-bg;
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-
-    th, td {
-      padding: 10px;
-      text-align: left;
-      border-bottom: 1px solid $border-color;
-    }
-
-    th {
-      background-color: $highlight-bg;
-    }
-
-    tr:nth-child(even) {
-      background-color: $secondary-bg;
-    }
-  }
-
-  button {
-    padding: 5px 10px;
-    background-color: $button-bg;
-    color: $text-color;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+  .logo-button {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    background-color: #fff;
+    text-align: center;
 
     &:hover {
-      background-color: $button-hover-bg;
+      transform: translateY(-10px);
+      border-color: #f7a901;
+    }
+
+    .logo-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
+}
 
-  @media (max-width: 768px) {
-    margin: 20px;
-    padding: 15px;
-
-    table {
-      th, td {
-        padding: 8px;
-      }
-
-      th, td {
-        font-size: 14px;
-      }
-    }
-
-    button {
-      padding: 5px 8px;
-      font-size: 14px;
+@media (max-width: 768px) {
+  .logos-row {
+    .logo-button {
+      width: 80px;
+      height: 80px;
     }
   }
+}
 
-  @media (max-width: 480px) {
-    margin: 10px;
-    padding: 10px;
-
-    table {
-      th, td {
-        padding: 6px;
-      }
-
-      th, td {
-        font-size: 12px;
-      }
-    }
-
-    button {
-      padding: 4px 6px;
-      font-size: 12px;
-    }
-
-    table {
-      th, td {
-        &:nth-child(n+5) {
-          display: none;
-        }
-      }
+@media (max-width: 480px) {
+  .logos-row {
+    .logo-button {
+      width: 60px;
+      height: 60px;
     }
   }
 }

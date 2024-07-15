@@ -2,59 +2,29 @@ import React from 'react';
 import '../../assets/scss/blocks/CryptoListings.scss';
 import SectionTitle from '../ui/section-titles/SectionTitle';
 
-const listings = [
-  { name: 'Ico drop', symbol: 'ICO', chain: 'ETH', launchDate: 'in 2 months', votes: 250107, votes24: 9 },
-  { name: 'Coinmarketcap', symbol: 'CMC', chain: 'ETH', launchDate: 'in 21 days', votes: 211694, votes24: 1 },
-  { name: 'Coincap', symbol: 'CC', chain: 'BNB', launchDate: 'in a month', votes: 207141, votes24: 0 },
-  { name: 'Coingecko', symbol: 'CG', chain: 'ETH', launchDate: 'Today', votes: 205068, votes24: 0 },
-  { name: 'Cryptocompare', symbol: 'CC', chain: 'ETH', launchDate: 'in 2 months', votes: 110115, votes24: 1 },
-  { name: 'Coin360', symbol: 'C360', chain: 'ETH', launchDate: 'in a month', votes: 110048, votes24: 1 },
-  { name: 'Coinlib', symbol: 'CL', chain: 'ETH', launchDate: 'in a month', votes: 105019, votes24: 0 }
+const logos = [
+  { id: 1, src: 'images/listings/icodrops.svg', alt: 'Logo 1', link: '#' },
+  { id: 2, src: 'images/listings/coinmarketcap.png', alt: 'Logo 2', link: '#' },
+  { id: 3, src: 'images/listings/coincap.svg', alt: 'Logo 3', link: '#' },
+  { id: 4, src: 'images/listings/coingecko.svg', alt: 'Logo 4', link: '#' },
+  { id: 5, src: 'images/listings/cryptocompare.png', alt: 'Logo 5', link: '#' },
+  { id: 6, src: 'images/listings/Coin360.svg', alt: 'Logo 6', link: '#' },
+  { id: 7, src: 'images/listings/coinlib.png', alt: 'Logo 7', link: '#' },
 ];
 
 const CryptoListings = () => {
   return (
     <div>
-          <SectionTitle
-            title="our Listings"
-            text=""
+      <SectionTitle
+            title="Our listings"
+            text="We are working on a new way to invest in cryptocurrencies."
           />
-    <div className="crypto-listings">
-      
-      <table>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Chain</th>
-            <th>Market Cap</th>
-            <th>Price</th>
-            <th>Volume</th>
-            <th>24h</th>
-            <th>Launch Date</th>
-            <th>Votes</th>
-            <th>Votes 24</th>
-            <th>Vote</th>
-          </tr>
-        </thead>
-        <tbody>
-          {listings.map((listing, index) => (
-            <tr key={index}>
-              <td>{index + 1}</td>
-              <td>{listing.name}</td>
-              <td>{listing.chain}</td>
-              <td>Presale</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>{listing.launchDate}</td>
-              <td>{listing.votes.toLocaleString()}</td>
-              <td>{listing.votes24}</td>
-              <td><button>Vote</button></td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="logos-row">
+      {logos.map((logo) => (
+        <a key={logo.id} href={logo.link} className="logo-button">
+          <img src={logo.src} alt={logo.alt} className="logo-image" />
+        </a>
+      ))}
     </div>
     </div>
   );

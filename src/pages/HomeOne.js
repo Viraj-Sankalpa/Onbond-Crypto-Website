@@ -75,9 +75,7 @@ const HomeOne = () => {
         {/* App download */}
         <SoftwareDownload />
 
-        {/* secure transaction */}
-
-        {/* <SecureTransaction /> */}
+  
 
         {/* Tokenomics chart */}
 
@@ -86,8 +84,9 @@ const HomeOne = () => {
             title="Tokenomics Chart"
             text="We are working on a new way to invest in cryptocurrencies."
           />
+         
+          <TokenomicsChart />
 
-<TokenomicsChart />
         </div>
         
         <br />
