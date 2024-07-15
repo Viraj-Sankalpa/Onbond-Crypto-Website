@@ -1,5 +1,6 @@
 .team-card {
-    background: linear-gradient(to right, #4e9fff, #06d6a0);
+    // background: linear-gradient(to right, #4e9fff, #06d6a0);
+    background: radial-gradient(circle at top, #f7a901 , #1d1c1b);
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -36,7 +37,7 @@
   
     &__info {
       padding: 20px;
-      background: linear-gradient(to right, #4e9fff, #06d6a0);
+      // background: linear-gradient(to right, #4e9fff, #06d6a0);
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
     }
