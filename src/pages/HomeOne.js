@@ -10,6 +10,7 @@ import TeamContent from "../containers/teams/TeamContent";
 import LayoutOne from "../layouts/LayoutOne";
 
 import CoinComponent from "../components/coin-component/CoinComponent";
+import CryptoListings from "../components/listings/CryptoListings";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import ContactForm from "./ContactForm";
 import FAQ from "./FAQ";
@@ -34,6 +35,9 @@ const HomeOne = () => {
 
         {/* website about - home */}
         <AboutHome />
+
+        {/* listings */}
+        <CryptoListings />
 
         {/* roadmap */}
 
