@@ -25,14 +25,14 @@
     }
   }
 }
-
+.buttons{
+  display: flex;
+  gap: 30px;
+}
 .button-container {
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  
 
   @media (max-width: 768px) {
     gap: 20px;

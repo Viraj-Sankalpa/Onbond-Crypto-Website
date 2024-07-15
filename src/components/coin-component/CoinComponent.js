@@ -12,7 +12,7 @@ const CoinComponent = () => {
         alt="secure images"
       />
 
-      <div className="button-container">
+      <div className="buttons">
         <Link
           className="secure__btn dg__btn btn--trans"
           to={process.env.PUBLIC_URL + "/"}
