@@ -6,17 +6,17 @@ import TimelineComponent from "../components/timeline/TimelineComponent";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
 import VideoPopup from "../components/video-popups/VideoPopup";
 import HeroSlider from "../containers/hero-sliders/HeroSlider";
-import TeamContent from "../containers/teams/TeamContent";
 import LayoutOne from "../layouts/LayoutOne";
 
 import CoinComponent from "../components/coin-component/CoinComponent";
 import CryptoListings from "../components/listings/CryptoListings";
+import PhoneAnimation from "../components/phone-animation/PhoneAnimation";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
+import TeamMembers from "../containers/teams/TeamMembers";
 import ContactForm from "./ContactForm";
 import FAQ from "./FAQ";
 
 const HomeOne = () => {
-  
   return (
     <Fragment>
       <MetaTags>
@@ -31,7 +31,7 @@ const HomeOne = () => {
         <HeroSlider />
 
         {/* coin and two buttons */}
-        <CoinComponent/>
+        <CoinComponent />
 
         {/* website about - home */}
         <AboutHome />
@@ -51,6 +51,13 @@ const HomeOne = () => {
 
         <br />
 
+        <PhoneAnimation />
+
+        <br />
+        <br />
+        <br />
+        <br />
+
         {/* membership plan */}
         {/* <div>
           <SectionTitle
@@ -64,31 +71,24 @@ const HomeOne = () => {
         {/* video popup */}
         <VideoPopup />
 
-        {/* counter up */}
-        {/* <CounterUp backgroundImage="/images/bg/2.jpg" /> */}
-
-        {/* listings */}
 
         {/* team */}
-        <TeamContent />
+        <TeamMembers />
 
         {/* App download */}
         <SoftwareDownload />
 
-  
-
         {/* Tokenomics chart */}
 
         <div>
-        <SectionTitle
+          <SectionTitle
             title="Tokenomics Chart"
             text="We are working on a new way to invest in cryptocurrencies."
           />
-         
-          <TokenomicsChart />
 
+          <TokenomicsChart />
         </div>
-        
+
         <br />
 
         {/* faq */}

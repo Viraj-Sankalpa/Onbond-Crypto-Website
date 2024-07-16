@@ -8,7 +8,7 @@ const members = [
     position: "CHIEF EXECUTIVE OFFICER",
     description:
       "Mr.Balaji has strategic oversight of the company’s broad investment portfolio and special projects at the group level. He had been a board member of various investment companies and various other companies in the past and is mandated to develop Wish Group investment’s policies, establish investment guidelines, and review proposed projects and investments to ensure they are in line with business objectives.",
-    image: "images/team/md-img/y.jpg",
+    image: "images/team/md-img/balaji.png",
     social: {
       facebook: "#",
       twitter: "#",
@@ -21,7 +21,20 @@ const members = [
     position: "CHIEF FINANCIAL OFFICER",
     description:
       "Mr. Shyam is a result-oriented finance professional with over 25 years of extensive experience in financial control, treasury management, acquisitions and exits. He provides strategic financial direction to the organization, aligned with the business strategy and actively participates in the organization’s decision-making process. He has a bottom-line driven approach that is focused on delivering results. ",
-    image: "images/team/md-img/z.jpg",
+    image: "images/team/md-img/shyam.png",
+    social: {
+      facebook: "#",
+      twitter: "#",
+      google: "#",
+      youtube: "#",
+    },
+  },
+  {
+    name: "Mr. DINESH KUMAR SABHARWAL",
+    position: "LEGAL CONSULTANT",
+    description:
+      "With 30 years of experience, Dinesh Kumar Sabharwal has established a reputation for delivering exceptional legal and financial advisory services to a diverse clientele, including multinational corporations, SMEs, and high-net-worth individuals. As both an advocate and a chartered accountant, Dinesh Kumar Sabharwal offers a unique blend of legal acumen and financial expertise, ensuring comprehensive and strategic solutions for complex business challenges. ",
+    image: "images/team/md-img/dinesh.png",
     social: {
       facebook: "#",
       twitter: "#",
