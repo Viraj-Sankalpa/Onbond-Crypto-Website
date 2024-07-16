@@ -1,0 +1,114 @@
+.members {
+    margin-top: 40px;
+  
+    .member-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .team-members {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, #01346c 0%, #f7ab00 100%);
+        width: 90%;
+        max-width: 800px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 1s;
+  
+        .member-image {
+          flex: none;
+          img {
+            height: auto;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+          }
+        }
+  
+        .member-details {
+          flex: none;
+          width: 100%;
+          padding: 20px;
+          text-align: center;
+  
+          h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #fff; // Adjusted for dark background
+          }
+  
+          h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #98948b;
+          }
+  
+          p {
+            margin: 10px 0;
+            color: #363131; // Adjusted for dark background
+          }
+  
+          .social-links {
+            display: flex;
+            justify-content: center;
+            a {
+              margin-right: 10px;
+              color: #fff; // Adjusted for dark background
+              text-decoration: none;
+  
+              &:hover {
+                color: #ffba00;
+              }
+            }
+  
+            a:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .members {
+      .member-card {
+        .team-members {
+          flex-direction: row;
+  
+          .member-image {
+            flex: 1;
+            img {
+              height: 270px;
+              width: 300px;
+              border-radius: 10px;
+            }
+          }
+  
+          .member-details {
+            flex: 2;
+            padding-left: 20px;
+            text-align: left;
+  
+            .social-links {
+              justify-content: flex-start;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
