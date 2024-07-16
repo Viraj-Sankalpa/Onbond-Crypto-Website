@@ -14,7 +14,7 @@ const VideoPopup = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="dg__video__inner">
-              <h2>This Is a Parfect way to know about us</h2>
+              <h2>This Is a Perfect way to know about us</h2>
               <p>
                 One Bond seeks to connect traditional finance and the crypto
                 world through innovative blockchain-based services. The platform
