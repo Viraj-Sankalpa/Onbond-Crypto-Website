@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
   FaFacebookSquare,
-  FaHeart,
   FaLinkedin,
   FaTumblrSquare,
   FaTwitterSquare,
@@ -39,110 +38,7 @@ const Footer = ({ theme }) => {
         }`}
       >
         <div className="container">
-          <div className="row">
-            {/* Start Single Widget */}
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 col-12">
-              <div className="footer__widget">
-                <h4>Resources</h4>
-                <div className="footer__inner">
-                  <ul className="ft__menu">
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Bitcoin Price</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Blog</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Helps Portal</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Buy Theme</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* End Single Widget */}
-            {/* Start Single Widget */}
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 xs__mt--40">
-              <div className="footer__widget information">
-                <h4>Information</h4>
-                <div className="footer__inner">
-                  <ul className="ft__menu">
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>
-                        Currency Exchange
-                      </a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Todays Rate</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>About OneBond</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>How To Video</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* End Single Widget */}
-            {/* Start Single Widget */}
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 md__mt--40 sm__mt--40">
-              <div className="footer__widget support">
-                <h4>Support</h4>
-                <div className="footer__inner">
-                  <ul className="ft__menu">
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Contact us</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Support Center</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Helps</a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>
-                        Terms &amp; Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a href={process.env.PUBLIC_URL + "/"}>Live Chat</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* End Single Widget */}
-            {/* Start Single Widget */}
-            <div className="col-lg-3 col-md-6 col-sm-6 md__mt--40 sm__mt--40">
-              <div className="footer__widget resources">
-                <h4>Contact</h4>
-                <div className="footer__inner">
-                  <ul>
-                    <li>onebond@example.info</li>
-                    <li>
-                      Address:
-                      <br /> your address here
-                    </li>
-                    <li>
-                      Phone:
-                      <br /> +11 1111 111 111
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* End Single Widget */}
-          </div>
+        
         </div>
       </div>
       <div
@@ -155,8 +51,8 @@ const Footer = ({ theme }) => {
             <div className="col-lg-6 col-sm-6 col-12">
               <div className="copyright__inner">
                 <p className="copyright-text">
-                  &copy; OneBond {new Date().getFullYear()} Made with <FaHeart />{" "}
-                  by Cloudops solution.
+                Copyright
+                  &copy; OneBond {new Date().getFullYear()} All rights reserved.
                 </p>
               </div>
             </div>
