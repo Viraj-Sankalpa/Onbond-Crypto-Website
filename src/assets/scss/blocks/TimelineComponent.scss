@@ -3,6 +3,10 @@
   padding: 20px 0;
   width: 50%;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 }
 
 .timeline-line {
@@ -39,6 +43,10 @@
     border-radius: 50%;
     transform: translateX(-50%);
     z-index: 3;
+  }
+
+  @media (max-width: 768px) {
+    left: 5%;
   }
 }
 
@@ -80,6 +88,28 @@
 
     &:before {
       left: -5px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 90%;
+    &.left {
+      left: 10%;
+      text-align: left;
+
+      &:before {
+        left: -5px;
+        right: auto;
+      }
+    }
+
+    &.right {
+      left: 10%;
+      text-align: left;
+
+      &:before {
+        left: -5px;
+      }
     }
   }
 }
