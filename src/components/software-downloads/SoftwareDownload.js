@@ -75,7 +75,7 @@ const SoftwareDownload = () => {
           <div className="col-lg-6 col-md-12 col-sm-12 col-12 sm__mt--40 md__mt--40">
             <div className="phone__images">
               <img
-                src={process.env.PUBLIC_URL + "/images/about/3.png"}
+                src={process.env.PUBLIC_URL + "/images/about/app.png"}
                 alt="phone images"
               />
             </div>
