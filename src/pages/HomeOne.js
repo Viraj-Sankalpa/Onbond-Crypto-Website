@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
+import { Link } from "react-router-dom";
 import AboutHome from "../components/about-home/AboutHome";
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
 import TimelineComponent from "../components/timeline/TimelineComponent";
@@ -71,7 +72,6 @@ const HomeOne = () => {
         {/* video popup */}
         <VideoPopup />
 
-
         {/* team */}
         <TeamMembers />
 
@@ -87,6 +87,14 @@ const HomeOne = () => {
           />
 
           <TokenomicsChart />
+          <div className="white-paper">
+            <Link
+              className="secure__btn dg__btn btn--trans"
+              to={process.env.PUBLIC_URL + "/"}
+            >
+              White paper
+            </Link>
+          </div>
         </div>
 
         <br />
