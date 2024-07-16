@@ -2,24 +2,12 @@ import React, { useEffect, useState } from "react";
 import SectionTitle from "../../components/ui/section-titles/SectionTitle";
 
 const members = [
-  {
-    name: "MR.ASAID AHMED ARABI MOULANA",
-    position: "CHAIRMAN",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt ultrices. Ut quis blandit dolor. Ut laoreet sagittis arcu eu tristique.",
-    image: "images/team/md-img/x.jpg",
-    social: {
-      facebook: "#",
-      twitter: "#",
-      google: "#",
-      youtube: "#",
-    },
-  },
+  
   {
     name: "MR.BALAJI SELVARAJ",
     position: "CHIEF EXECUTIVE OFFICER",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt ultrices. Ut quis blandit dolor. Ut laoreet sagittis arcu eu tristique.",
+      "Mr.Balaji has strategic oversight of the company’s broad investment portfolio and special projects at the group level. He had been a board member of various investment companies and various other companies in the past and is mandated to develop Wish Group investment’s policies, establish investment guidelines, and review proposed projects and investments to ensure they are in line with business objectives.",
     image: "images/team/md-img/y.jpg",
     social: {
       facebook: "#",
@@ -32,7 +20,7 @@ const members = [
     name: "Mr. SHYAM SUNDAR",
     position: "CHIEF FINANCIAL OFFICER",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus tincidunt ultrices. Ut quis blandit dolor. Ut laoreet sagittis arcu eu tristique.",
+      "Mr. Shyam is a result-oriented finance professional with over 25 years of extensive experience in financial control, treasury management, acquisitions and exits. He provides strategic financial direction to the organization, aligned with the business strategy and actively participates in the organization’s decision-making process. He has a bottom-line driven approach that is focused on delivering results. ",
     image: "images/team/md-img/z.jpg",
     social: {
       facebook: "#",
