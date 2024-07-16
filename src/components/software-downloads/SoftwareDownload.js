@@ -19,8 +19,9 @@ const SoftwareDownload = () => {
                 secure and convenient crypto handling, tailored to fit your
                 lifestyle and preferred device.
               </p>
+              <h5>Download apk file here</h5>
               <ul className="avilable__device">
-                <li>
+                {/* <li>
                   <a
                     href={process.env.PUBLIC_URL + "/"}
                     target="_blank"
@@ -43,7 +44,7 @@ const SoftwareDownload = () => {
                       alt="images"
                     />
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href={process.env.PUBLIC_URL + "/"}
