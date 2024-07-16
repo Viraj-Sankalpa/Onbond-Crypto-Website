@@ -13,7 +13,7 @@ function ContactForm() {
           <div className="google__map">
             {/* <ContactMap latitude="47.444" longitude="-122.176" /> */}
             <img
-              src={process.env.PUBLIC_URL + "/images/about/contact.png"}
+              src={process.env.PUBLIC_URL + "/images/about/map.gif"}
               alt="conatct images"
             />
           </div>
@@ -40,6 +40,11 @@ function ContactForm() {
               <div className="contact-btn">
                 <button type="submit">
                   Submit
+                  <span className="ti-arrow-right" />
+                </button>
+                  OR
+                <button type="submit">
+                  Contact us
                   <span className="ti-arrow-right" />
                 </button>
               </div>

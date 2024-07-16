@@ -35,6 +35,7 @@ const BrandLogo = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
+         
             {/* section title */}
             <SectionTitle
               title="We work Together"
@@ -64,10 +65,14 @@ const BrandLogo = () => {
                 </Swiper>
               </ul>
             </div>
+           
           </div>
         </div>
       </div>
+     
+     
     </div>
+    
   );
 };
 

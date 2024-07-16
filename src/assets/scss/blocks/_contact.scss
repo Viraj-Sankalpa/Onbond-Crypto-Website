@@ -61,9 +61,12 @@
 
 .contact-btn {
     margin-top: 30px;
+   
     button {
         height: 40px;
         padding: 0 40px;
+        margin-right: 50px;
+        margin-left: 50px;
 
         transition: 0.5s;
         text-transform: uppercase;
@@ -85,12 +88,13 @@
 
 .google__map {
     position: relative;
-    padding-top: 200px;
+   
+    // padding-top: 200px;
     padding-left: 200px;
     
 
-    width: 50%;
-    height: 750px;
+    width: 100%;
+    height: 100%;
 }
 
 /* Responsive Css*/

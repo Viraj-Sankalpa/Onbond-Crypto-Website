@@ -74,6 +74,10 @@ const Contact = () => {
                         Submit
                         <span className="ti-arrow-right" />
                       </button>
+                      <button type="submit">
+                        Contact Us
+                        <span className="ti-arrow-right" />
+                      </button>
                     </div>
                   </form>
                 </div>
