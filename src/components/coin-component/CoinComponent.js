@@ -7,10 +7,7 @@ const CoinComponent = () => {
 
   return (
     <div className="coin-container">
-      <img
-        src={process.env.PUBLIC_URL + "/images/logo/1.gif"}
-        alt="secure images"
-      />
+      
 
       <div className="buttons">
         <Link
@@ -33,10 +30,7 @@ const CoinComponent = () => {
         </Link>
       </div>
 
-      <img
-        src={process.env.PUBLIC_URL + "/images/logo/1.gif"}
-        alt="secure images"
-      />
+     
     </div>
   );
 };
