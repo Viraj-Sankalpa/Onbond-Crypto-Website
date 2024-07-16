@@ -94,6 +94,7 @@ const HomeOne = () => {
             >
               White paper
             </Link>
+            
           </div>
         </div>
 
