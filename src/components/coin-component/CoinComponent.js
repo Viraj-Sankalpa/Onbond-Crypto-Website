@@ -26,7 +26,7 @@ const CoinComponent = () => {
           className="secure__btn dg__btn btn--trans"
           to={process.env.PUBLIC_URL + "/"}
         >
-          membership plans
+          member login
         </Link>
       </div>
 
