@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import {
   FaFacebookSquare,
+  FaInstagramSquare,
   FaLinkedin,
-  FaTumblrSquare,
-  FaTwitterSquare,
-  FaVimeoSquare
+  FaTelegram,
+  FaTwitterSquare
 } from "react-icons/fa";
 import { MdExpandLess } from "react-icons/md";
 import { animateScroll } from "react-scroll";
@@ -60,7 +60,7 @@ const Footer = ({ theme }) => {
               <ul className="footer__right social__icon">
                 <li>
                   <a
-                    href="//facebook.com"
+                    href="https://www.facebook.com/share/p/HrKYorNmqcNwxNLL/?mibextid=WC7FNe"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -78,7 +78,7 @@ const Footer = ({ theme }) => {
                 </li>
                 <li>
                   <a
-                    href="//twitter.com"
+                    href="https://x.com/onebond1/status/1813106071751295196?s=46"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -87,20 +87,20 @@ const Footer = ({ theme }) => {
                 </li>
                 <li>
                   <a
-                    href="//vimeo.com"
+                    href="https://www.instagram.com/onebond.foundation?igsh=MXBnd2FjcjVtYTByZQ%3D%3D&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaVimeoSquare />
+                    <FaInstagramSquare />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="//tumblr.com"
+                    href="https://t.me/Onebondcrypto"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaTumblrSquare />
+                    <FaTelegram />
                   </a>
                 </li>
               </ul>
