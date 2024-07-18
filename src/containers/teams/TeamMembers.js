@@ -60,8 +60,8 @@ const TeamMembers = () => {
   return (
     <div className="members">
       <SectionTitle
-        title="Our Members"
-        text="We are working on a new way to invest in cryptocurrencies."
+        title="Our Team"
+        text="Meet the talented individuals behind our project. Our diverse team brings expertise from various fields, working together to drive innovation in the crypto space."
       />
       <div className="member-card">
         <div className="team-members">

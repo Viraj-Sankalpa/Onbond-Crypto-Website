@@ -37,11 +37,13 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq-container">
+    <div>
       <SectionTitle
         title="FAQ"
-        text="Frequently Asked Questions"
+        text="Quick answers to common queries about our project. This section helps newcomers and existing users understand our coin's features, benefits, and how to get involved."
       />
+    <div className="faq-container">
+      
       {faqData.map((item, index) => (
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
@@ -51,6 +53,7 @@ const FAQ = () => {
           {activeIndex === index && <div className="faq-answer">{item.answer}</div>}
         </div>
       ))}
+    </div>
     </div>
   );
 };

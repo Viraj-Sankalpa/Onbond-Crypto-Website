@@ -45,7 +45,7 @@ const HomeOne = () => {
         <div>
           <SectionTitle
             title="RoadMap"
-            text="We are working on a new way to invest in cryptocurrencies."
+            text="Our strategic plan for development and growth. This timeline outlines key milestones and features we aim to achieve, giving investors and users a clear view of our project's future."
           />
           <TimelineComponent />
         </div>
@@ -83,7 +83,7 @@ const HomeOne = () => {
         <div>
           <SectionTitle
             title="Tokenomics Chart"
-            text="We are working on a new way to invest in cryptocurrencies."
+            text="A visual representation of our token's economic model. This chart breaks down token distribution, allocation, and utility, providing transparency for our community and investors."
           />
 
           <TokenomicsChart />

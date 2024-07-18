@@ -6,7 +6,7 @@ function ContactForm() {
     <div className="container-fluid">
       <SectionTitle
         title="Contact Us"
-        text="We are always ready to help you with any questions."
+        text="Reach out to our team directly. Whether you have questions, suggestions, or partnership inquiries, we're here to listen and respond."
       />
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12 col-12">

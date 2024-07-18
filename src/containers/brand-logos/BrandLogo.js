@@ -39,9 +39,7 @@ const BrandLogo = () => {
             {/* section title */}
             <SectionTitle
               title="We work Together"
-              text="There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour."
+              text="A showcase of our strategic partnerships and technological foundations. These collaborations and tools empower our project, enhancing its capabilities and credibility in the blockchain ecosystem."
             />
           </div>
         </div>
