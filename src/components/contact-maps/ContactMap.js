@@ -1,6 +1,6 @@
+import { GoogleApiWrapper, Map, Marker } from "google-maps-react";
 import { PropTypes } from "prop-types";
 import React from "react";
-import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
 
 const ContactMap = props => {
   const mapStyles = {

@@ -11,9 +11,10 @@ function ContactForm() {
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12 col-12">
           <div className="google__map">
-            {/* <ContactMap latitude="47.444" longitude="-122.176" /> */}
+            {/* <ContactMap latitude="25.1971" longitude="55.2743" /> */}
             <img
-              src={process.env.PUBLIC_URL + "/images/about/map.gif"}
+            
+              src={process.env.PUBLIC_URL + "/images/about/contact.png"}
               alt="conatct images"
             />
           </div>

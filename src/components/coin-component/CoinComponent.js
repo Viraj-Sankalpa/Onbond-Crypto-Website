@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../assets/scss/blocks/CoinComponent.scss";
 
 const CoinComponent = () => {
@@ -10,24 +9,15 @@ const CoinComponent = () => {
       
 
       <div className="buttons">
-        <Link
-          className="secure__btn dg__btn btn--trans"
-          to={process.env.PUBLIC_URL + "/"}
-        >
+      <a href="http://onebond.org/public" className="secure__btn dg__btn btn--trans">
           Log In
-        </Link>
-        <Link
-          className="secure__btn dg__btn btn--trans"
-          to={process.env.PUBLIC_URL + "/"}
-        >
-          Buy token
-        </Link>
-        <Link
-          className="secure__btn dg__btn btn--trans"
-          to={process.env.PUBLIC_URL + "/"}
-        >
-          member login
-        </Link>
+        </a>
+        <a href="http://onebond.org/public" className="secure__btn dg__btn btn--trans">
+          Buy Token
+        </a>
+        <a href="http://onebond.org/public" className="secure__btn dg__btn btn--trans">
+          Member login
+        </a>
       </div>
 
      
