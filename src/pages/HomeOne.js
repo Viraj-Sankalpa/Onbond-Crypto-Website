@@ -10,7 +10,7 @@ import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import LayoutOne from "../layouts/LayoutOne";
 
 import CoinComponent from "../components/coin-component/CoinComponent";
-import CryptoListings from "../components/listings/CryptoListings";
+import Listings from "../components/listings/Listings";
 import PhoneAnimation from "../components/phone-animation/PhoneAnimation";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
 import TeamMembers from "../containers/teams/TeamMembers";
@@ -38,7 +38,7 @@ const HomeOne = () => {
         <AboutHome />
 
         {/* listings */}
-        <CryptoListings />
+        <Listings />
 
         {/* roadmap */}
 

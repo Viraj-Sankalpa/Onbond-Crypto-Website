@@ -16,10 +16,13 @@
             a {
                 img {
                     transition: all 0.5s ease 0s;
+                    height: 74px;
+                    width: 177px;
                 }
             }
             &:hover a img {
                 opacity: 0.6;
+                color: #f7ab00;
               
             }
         }
