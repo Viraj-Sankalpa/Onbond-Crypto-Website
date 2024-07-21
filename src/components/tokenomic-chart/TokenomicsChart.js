@@ -3,7 +3,6 @@ import * as am4core from "@amcharts/amcharts4/core";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 import React, { useEffect } from 'react';
 
-
 const TokenomicsChart = () => {
   useEffect(() => {
     am4core.useTheme(am4themes_animated);
@@ -29,6 +28,12 @@ const TokenomicsChart = () => {
     series.dataFields.value = "value";
     series.dataFields.category = "category";
     series.labels.template.fill = am4core.color("#FFFFFF"); // white labels
+
+    series.slices.template.propertyFields.fill = "color";
+    chart.data = chart.data.map((item, index) => {
+      let colors = ["#fcc200", "#da9100", "#e6be8a", "#ffc30b", "#996515", "#cfb53b"];
+      return { ...item, color: colors[index] };
+    });
 
     return () => {
       chart.dispose();
