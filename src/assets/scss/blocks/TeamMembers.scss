@@ -12,7 +12,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(45deg, #01346c 0%, #f7ab00 100%);
+        // background: linear-gradient(45deg, #01346c 0%, #f7ab00 100%);
+        background: radial-gradient(circle, rgba(247,171,0,1) 0%, rgba(121,84,9,1) 39%, rgba(0,0,0,1) 100%);
         width: 90%;
         max-width: 800px;
         height: max-content;
@@ -51,7 +52,7 @@
   
           p {
             margin: 10px 0;
-            color: #363131; // Adjusted for dark background
+            color: #fef2f2; // Adjusted for dark background
           }
   
           .social-links {
