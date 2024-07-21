@@ -4,28 +4,36 @@ import SectionTitle from '../components/ui/section-titles/SectionTitle';
 
 const faqData = [
   {
-    question: "What is React?",
-    answer: "React is a JavaScript library for building user interfaces.",
+    question: "What is One Bond (OBC)?",
+    answer: "One Bond is a digital currency and decentralized networkenabling global transactions and diverse applications.",
   },
   {
-    question: "How does React work?",
-    answer: "React creates a virtual DOM and updates it in response to changes in state or props.",
+    question: "How can I access One Bond?",
+    answer: "You can access One Bond from anywhere with an internet connection, without relying on a central authority.",
   },
   {
-    question: "What are components?",
-    answer: "Components are the building blocks of a React application.",
+    question: "What financial services does One Bond offer? ",
+    answer: "One Bond offers lending, borrowing, and savings products accessible with just an internet connection.",
   },
   {
-    question: "What is JSX?",
-    answer: "JSX is a syntax extension for JavaScript that looks similar to XML or HTML.",
+    question: "What is the decentralized web in One Bond?",
+    answer: "One Bond allows anyone to create and manage applications and assets autonomously.",
   },
   {
-    question: "How do you handle events in React?",
-    answer: "Events are handled using event handlers, similar to HTML but with camelCase syntax.",
+    question: "How does One Bond handle transactions?",
+    answer: "One Bond enables direct transactions between peers, eliminating intermediaries.",
   },
   {
-    question: "What are props?",
-    answer: "Props are inputs to components that allow data to be passed from parent to child components.",
+    question: "Is One Bond subject to censorship?",
+    answer: "No, One Bond operates independently of any government or corporation, preventing censorship.",
+  },
+  {
+    question: "What assurances does One Bond provide businesses? ",
+    answer: "One Bond ensures secure transactions only upon agreed terms, offering stability for developers.",
+  },
+  {
+    question: "Are One Bond products interoperable?",
+    answer: "Yes, all applications on One Bond operate on a unified blockchain, fostering collaboration and innovation.",
   },
 ];
 
