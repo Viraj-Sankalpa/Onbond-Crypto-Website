@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 
+
 // Set the root element for the modal
 Modal.setAppElement('#root');
 
@@ -62,11 +63,34 @@ const AboutHome = () => {
         className="custom-modal"
         overlayClassName="custom-modal-overlay"
       >
-        <h2>More About One Bond Coin</h2>
-        <p>
-          One Bond Coin represents a significant advancement in the digital currency space. By leveraging a decentralized network, it ensures secure transactions and enhances accessibility for users worldwide. The infrastructure supports diverse applications, enabling innovative solutions across various sectors.
-        </p>
-        <button onClick={closeModal}>Close</button>
+        <div className="modal-content">
+          <h2>What One Bond can do?</h2>
+          <h4>Universal access to digital banking</h4>
+          <p>
+            While financial services remain out of reach for some, accessing One Bond and its lending, borrowing, and savings products only requires an internet connection.
+          </p>
+          <h4>Decentralized web</h4>
+          <p>
+            The One Bond network welcomes everyone to participate and create applications, giving you the power to manage your assets and identity autonomously, free from the influence of large corporations.
+          </p>
+          <h4>Network of interconnected peers</h4>
+          <p>
+            One Bond enables you to coordinate, agree upon, or transfer digital assets directly with others, eliminating the need for intermediaries.
+          </p>
+          <h4>Impervious to censorship</h4>
+          <p>
+            One Bond operates independently of any government or corporation. Its decentralized structure ensures that no entity can easily prevent you from receiving payments or utilizing services on the platform.
+          </p>
+          <h4>Business assurances</h4>
+          <p>
+            Customers are provided with a secure assurance that funds will only transfer upon fulfillment of agreed terms. Similarly, developers can expect stability with rules that remain unchanged.
+          </p>
+          <h4>Interoperable products</h4>
+          <p>
+            All applications operate on a unified blockchain with a shared global state, enabling them to collaborate and innovate together. This fosters enhanced products and user experiences, with the assurance that essential tools relied upon by apps cannot be tampered with or removed.
+          </p>
+          <button onClick={closeModal}>Close</button>
+        </div>
       </Modal>
     </div>
   );

@@ -57,7 +57,7 @@
 .dg__secure__thumb {
     position: relative;
     text-align: right;
-    >img {
+    > img {
         position: relative;
         z-index: 2;
     }
@@ -68,12 +68,10 @@
     }
 }
 
-
-
 /* Responsive Css*/
 
 @media #{$xlg-layout} {
-    .dg__secure__thumb>img {
+    .dg__secure__thumb > img {
         width: 100%;
     }
     .dg__secure__transaction {
@@ -132,7 +130,6 @@
     .about__dgtaka {
         padding: 60px 0;
     }
-
 }
 
 @media #{$xs-layout} {
@@ -142,27 +139,69 @@
 }
 
 @media #{$xx-layout} {
-    .dg__secure__thumb>img {
+    .dg__secure__thumb > img {
         width: 100%;
     }
 }
 
+/* Modal Styles */
+
 .custom-modal {
-    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    max-height: 80vh; /* Limit the height to allow scrolling */
+    width: 90%;
+    max-width: 800px; /* Set a max-width for the modal */
+    overflow-y: auto; /* Enable vertical scrolling */
     padding: 20px;
-    max-width: 600px;
-    margin: 40px auto;
-    border-radius: 8px;
+    background: #1a1a1a; /* Match the theme color */
+    color: #ffffff; /* Text color for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     outline: none;
-  }
-  
-  .custom-modal-overlay {
+}
+
+.custom-modal-overlay {
+    background-color: #051630; /* Match the theme color */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 1000;
-  }
-  
+}
+
+.modal-content {
+    max-height: 100%; /* Allow content to use the available height */
+    overflow-y: auto; /* Enable vertical scrolling for the content */
+}
+
+.modal-content h2, .modal-content h4 {
+    color: #F7AB00; /* Use the theme accent color for headings */
+}
+
+.modal-content p {
+    color: #ffffff; /* Text color for readability */
+}
+
+.modal-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F7AB00; /* Match the theme accent color */
+    color: #051630;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #e6a200;
+    }
+}
