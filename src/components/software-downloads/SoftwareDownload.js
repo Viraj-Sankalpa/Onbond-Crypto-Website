@@ -21,30 +21,6 @@ const SoftwareDownload = () => {
               </p>
               <h5>Download apk file here</h5>
               <ul className="avilable__device">
-                {/* <li>
-                  <a
-                    href={process.env.PUBLIC_URL + "/"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={process.env.PUBLIC_URL + "/images/icons/4.png"}
-                      alt="images"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href={process.env.PUBLIC_URL + "/"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={process.env.PUBLIC_URL + "/images/icons/5.png"}
-                      alt="images"
-                    />
-                  </a>
-                </li> */}
                 <li>
                   <a
                     href={process.env.PUBLIC_URL + "/"}

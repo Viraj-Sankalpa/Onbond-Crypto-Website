@@ -6,6 +6,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  z-index: 10; /* Ensure it's above other elements */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -48,6 +49,7 @@
     color: #fff;
     border: 2px solid #ffd700; /* Adjust border color as needed */
     border-radius: 5px;
+    z-index: 20; /* Ensure buttons are above other elements */
 
     @media (max-width: 768px) {
       font-size: 14px;
