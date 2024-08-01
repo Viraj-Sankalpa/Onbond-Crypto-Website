@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import { Link } from "react-router-dom";
 import AboutHome from "../components/about-home/AboutHome";
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
 import TimelineComponent from "../components/timeline/TimelineComponent";
@@ -88,13 +87,13 @@ const HomeOne = () => {
 
           <TokenomicsChart />
           <div className="white-paper">
-            <Link
+            <a
+              href={`${process.env.PUBLIC_URL}/pdf/whitepaper.pdf`}
               className="secure__btn dg__btn btn--trans"
-              to={process.env.PUBLIC_URL + "/"}
+              download="whitepaper.pdf"
             >
               White paper
-            </Link>
-            
+            </a>
           </div>
         </div>
 
