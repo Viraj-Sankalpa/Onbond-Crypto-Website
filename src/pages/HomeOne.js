@@ -82,7 +82,7 @@ const HomeOne = () => {
         <div>
           <SectionTitle
             title="Tokenomics Chart"
-            text="A visual representation of our token's economic model. This chart breaks down token distribution, allocation, and utility, providing transparency for our community and investors."
+            text="A visual Representation of our token's economic model. This chart breaks down token distribution, allocation, and utility, providing transparency for our community and investors."
           />
 
           <TokenomicsChart />
