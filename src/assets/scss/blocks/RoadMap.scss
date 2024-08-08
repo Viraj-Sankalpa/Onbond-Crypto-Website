@@ -7,15 +7,196 @@ body{
   background-attachment: fixed;
 }
 
-
-
-
-.roadmap {
+#roadmap {
   position: relative;
-  padding: 50px 0;
+  padding-top: 135px;
+  overflow: hidden;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.4;
+
+    video {
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.section-title {
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.roadmap-wrap .roadmap--item {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.roadmap-wrap .roadmap--item::before {
+  content: '';
+  height: 233px;
+  width: 1px;
+  position: absolute;
+  left: 48px;
+  top: 10px;
+  background: linear-gradient(181deg, #fff 0%, #f7ab00 100%);
+}
+.roadmap-wrap .roadmap--head {
+  font-size: 22px;
+  line-height: 42px;
+  padding-left: 70px;
+  padding-bottom: 10px;
+  color: #f7ab00;
+}
+.roadmap-wrap .roadmap--info {
+  padding-left: 92px;
+  padding-bottom: 67px;
+}
+.roadmap-wrap .roadmap--info li {
+  list-style: 30px;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--year {
+    display: none;
+  }
+}
+.roadmap-wrap .roadmap--year span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  padding-top: 11px;
+  display: block;
+}
+.roadmap-wrap .roadmap--circle {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  // background-color: #F7AB00; 
-  
+  justify-content: center;
+  margin-left: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--circle {
+    display: none;
+  }
+}
+.roadmap-wrap .roadmap--circle span {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  box-shadow: 0 4px 11px 0 #f7ab00;
+}
+.roadmap-wrap .roadmap--line {
+  width: 100%;
+  height: 8px;
+  background: none;
+  opacity: 0.1;
+  margin-top: -57px;
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--line {
+    display: none;
+  }
+}
+.roadmap-wrap .roadmap--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 150px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .roadmap-wrap .roadmap--top {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1199px) {
+  .roadmap-wrap .roadmap--top {
+    padding-left: 120px;
+  }
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--top {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+}
+.roadmap-wrap .roadmap--bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 127px;
+  padding-right: 40px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .roadmap-wrap .roadmap--bottom {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .roadmap-wrap .roadmap--bottom {
+    padding-left: 11px;
+  }
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--bottom {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: -70px;
+  }
+}
+.roadmap-wrap .roadmap--bottom .bottom-item {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-top: -69px;
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--bottom .bottom-item {
+    margin-bottom: 90px;
+  }
+}
+.roadmap-wrap .roadmap--bottom .bottom-item:nth-child(3) {
+  margin-left: -29px;
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--bottom .bottom-item:nth-child(3) {
+    margin-left: 0;
+  }
+}
+.roadmap-wrap .roadmap--bottom .bottom-item::before {
+  background: linear-gradient(181deg, #f7ab00 0%, #fff 100%);
+  top: 80px;
+}
+@media (max-width: 991px) {
+  .roadmap-wrap .roadmap--bottom .bottom-item::before {
+    top: 34px;
+  }
+}
+.roadmap-wrap .roadmap--bottom .bottom-item .roadmap--head {
+  padding-top: 68px;
+}
+.roadmap-wrap .roadmap--bottom .bottom-item .roadmap--info {
+  padding-bottom: 0;
+}
+.roadmap-wrap .roadmap--bottom .bottom-item .roadmap--circle {
+  margin-top: 11px;
 }
