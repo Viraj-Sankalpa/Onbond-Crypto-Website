@@ -17,6 +17,7 @@ const AboutHome = () => {
   };
 
   return (
+    <div className="about-home">
     <div className="dg__secure__transaction">
       <div className="container">
         <div className="row flex-column-reverse flex-lg-row align-items-center">
@@ -92,6 +93,7 @@ const AboutHome = () => {
           <button onClick={closeModal}>Close</button>
         </div>
       </Modal>
+    </div>
     </div>
   );
 };

@@ -1,7 +1,9 @@
 /*-------------------
     Secure Styles
 --------------------*/
-
+.about-home{
+    background-image: url('../../../../public/images/bg/full.jpg');
+}
 .dg__secure__inner {
     h2 {
         color: #F7AB00;
@@ -33,6 +35,7 @@
 }
 
 .dg__secure__transaction {
+  
     padding: 87px 0 60px;
 }
 
