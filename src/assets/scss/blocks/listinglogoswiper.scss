@@ -1,0 +1,40 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .logo-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 120px; // Increased icon size
+    height: 150px;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .logo {
+      width: 100px; // Smaller size for medium screens
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      width: 80px; // Smaller size for small screens
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      width: 60px; // Smaller size for extra small screens
+    }
+  }
+  

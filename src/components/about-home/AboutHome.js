@@ -49,7 +49,7 @@ const AboutHome = () => {
           <div className="col-lg-5 mb-4 mb-lg-0">
             <div className="dg__secure__thumb">
               <img
-                src={process.env.PUBLIC_URL + "/images/about/about-comp.gif"}
+                src={process.env.PUBLIC_URL + "/images/about/global.png"}
                 alt="secure images"
                 className="img-fluid"
               />

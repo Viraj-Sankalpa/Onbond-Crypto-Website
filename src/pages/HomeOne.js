@@ -2,17 +2,17 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import AboutHome from "../components/about-home/AboutHome";
 import SoftwareDownload from "../components/software-downloads/SoftwareDownload";
-import TimelineComponent from "../components/timeline/TimelineComponent";
 import SectionTitle from "../components/ui/section-titles/SectionTitle";
-import VideoPopup from "../components/video-popups/VideoPopup";
-import HeroSlider from "../containers/hero-sliders/HeroSlider";
 import LayoutOne from "../layouts/LayoutOne";
 
 import CoinComponent from "../components/coin-component/CoinComponent";
-import Listings from "../components/listings/Listings";
+import HeroSection from "../components/hero-section/HeroSection";
+import ListingLogoSwiper from "../components/listings/ListingLogoSwiper";
 import PhoneAnimation from "../components/phone-animation/PhoneAnimation";
+import RoadMap from "../components/road-map/RoadMap";
+import Team from "../components/teams/Team";
 import TokenomicsChart from "../components/tokenomic-chart/TokenomicsChart";
-import TeamMembers from "../containers/teams/TeamMembers";
+import Globe from "../components/vanta/Globe";
 import ContactForm from "./ContactForm";
 import FAQ from "./FAQ";
 
@@ -27,27 +27,33 @@ const HomeOne = () => {
         />
       </MetaTags>
       <LayoutOne>
+
+       
         {/* hero slider */}
-        <HeroSlider />
+        <HeroSection />
+        {/* <HeroSlider /> */}
 
         {/* coin and two buttons */}
         <CoinComponent />
+        <Globe />
 
         {/* website about - home */}
         <AboutHome />
 
         {/* listings */}
-        <Listings />
-
-        {/* roadmap */}
-
         <div>
           <SectionTitle
-            title="RoadMap"
-            text="Our strategic plan for development and growth. This timeline outlines key milestones and features we aim to achieve, giving investors and users a clear view of our project's future."
+            title="OUR LISTINGS"
+            text="We are working on a new way to invest in cryptocurrencies."
           />
-          <TimelineComponent />
+
+          <ListingLogoSwiper />
         </div>
+
+        {/* roadmap */}
+         <RoadMap />
+         
+        
 
         <br />
 
@@ -68,11 +74,10 @@ const HomeOne = () => {
           <MembershipPlan />
         </div> */}
 
-        {/* video popup */}
-        <VideoPopup />
-
         {/* team */}
-        <TeamMembers />
+     
+          <Team />
+      
 
         {/* App download */}
         <SoftwareDownload />
