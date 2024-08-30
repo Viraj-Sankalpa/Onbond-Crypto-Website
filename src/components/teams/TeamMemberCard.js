@@ -13,7 +13,7 @@ const TeamMemberCard = ({ member }) => {
     >
       <div className="team-card__header">
         <img src={member.photo} alt={member.name} className="team-card__photo" />
-        <img src="/images/logo/1.gif" alt="Company Logo" className="team-card__logo" />
+        <img src="/images/logo/new-logo.png" alt="Company Logo" className="team-card__logo" />
       </div>
       <div className="team-card__info">
         <h3 className="team-card__name">{member.name}</h3>
